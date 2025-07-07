@@ -1,0 +1,4 @@
+docxtpl
+python-docx
+jinja2
+python-dotenv

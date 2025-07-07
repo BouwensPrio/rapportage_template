@@ -1,0 +1,25 @@
+{%p if hoofdstukken %}
+    {%p for hoofdstuk, paragrafen in hoofdstukken.items() %}            
+{{ hoofdstuk }}
+        {%p for paragraaf, data in paragrafen.items() %}                
+{{ paragraaf }}
+            {%p if data.toelichting %}
+{{ data.toelichting }}
+            {%p endif %}
+            {%p if data.tekst %}
+{{ data.tekst }}
+            {%p endif %}
+            {%p if data.vragen %}
+                {%p for vraag in data.vragen %}
+{{ vraag }}
+                {%p endfor %}
+            {%p endif %}
+            {%p if data.subparagrafen %}
+                {%p for subparagraaf, inhoud in data.subparagrafen.items() %}
+{{ subparagraaf }}
+{{ inhoud }}
+                {%p endfor %}
+            {%p endif %}
+        {%p endfor %}
+    {%p endfor %}
+{%p endif %} 
