@@ -157,7 +157,7 @@ basis_rapport_psychiatrie = {
                 "Vrije tijd": "",
             },
             "Dagverhaal": {"verbergen": "ja"},
-            "Persoonlijkheidsfunctioneren" : {"verbergen":"ja"},
+            "Persoonlijkheidsfunctioneren": {"verbergen": "ja"},
             "Ontwikkelingsanamnese": {"verbergen": "ja"},
             "Biografie": {},
             "Heteroanamnese": {},
@@ -405,70 +405,50 @@ psychiatrie_interventieadvies = {
     "bestandsnaam": "BP_interventieadvies.docx",
     "titel": "Interventieadvies",
     "hoofdstukken": {
-        
-    },
-}
-
-psychiatrie_interventieadvies_complex = {
-    "bestandsnaam": "BP_interventieadvies_complex.docx",
-    "titel": "Interventieadvies",
-    "subtitel": "Complexe problematiek",
-    "hoofdstukken": {
-        "Algemeen": {
-            "Vraagstelling": {"verbergen": "ja"}
-            },
+        "Algemeen": {"Vraagstelling": {"verbergen": "ja"}},
         "Onderzoek": {
             "Speciële anamnese": {
-                "toelichting":"We willen zicht krijgen op hoe betrokkene zelf het onderzoek ervaart, wat de hulpvraag van betrokkene zelf is en op welke manier betrokkene zijn/haar klachten, en de gevolgen daarvan ervaart. ",
+                "toelichting": "We willen zicht krijgen op hoe betrokkene zelf het onderzoek ervaart, wat de hulpvraag van betrokkene zelf is en op welke manier betrokkene zijn/haar klachten, en de gevolgen daarvan ervaart. ",
                 "Houding van betrokkene tegenover het onderzoek": "",
                 "Toedracht van het onderzoek in de woorden van betrokkene": "",
                 "Hulpvraag": {},
                 "Door betrokkene ervaren klachten": "",
                 "Door betrokkene ervaren beperkingen in het functioneren": "",
             },
-            "Tractus anamnese":{
-                "toelichting":"Vraag de volgende klachten uit, in de eigen woorden van betrokkene. Houd daarbij rekening met classificerende diagnostiek volgens de DSM-5-TR. Vraag bij herkenning van klachten telkens wanneer deze begonnen zijn, hoe het beloop is, welke factoren de klachten beïnvloeden en hoe ernstig deze zijn",
-                "Bewustzijn":"",
-                "Aandacht en concentratie":"",
-                "Geheugen":"",
-                "Waarneming":"",
-                "Zelfwaarneming":"",
-                "Inhoud van het denken":"",
-                "Stemming":"",
-                "Angsten":{"toelichting":"Vraag naar het type angst, lichamelijke sensaties en cognities. Bevraag ook paniek, dwanggedachten en dwanghandelingen"},
-                "Slaap":{"toelichting":"Bevraag systematisch; hoe laat gaat betrokkene naar bed, hoe lang duurt het voor hij/zij in slaap valt, wordt hij/zij tussentijds wakker, zijn er problemen met te vroeg wakker worden?"},
-                "Voeding en gewicht":"",
-                "Trauma":{"toelichting":"Vraag naar gebeurtenissen die betrokkene als traumatisch heeft ervaren, geef eventueel een omschrijving van traumatische gebeurtenissen"},
-                "Life-events":"",
-                "Suïcidaliteit":{"toelichting":"Vraag hier concreet en rechtstreeks naar. Indien er sprake is van suïcidaliteit, hanteer dan de CASE-methodiek:\a1. Vraag naar de ruime voorgeschiedenis van suïcidaliteit - (langdurige kwetsbaarheid)\a2. Vraag naar relevante gebeurtenissen in de recente voorgeschiedenis - (stressor)\a3. Vraag naar actuele suïcidale gedachten, vraag naar de intensiteit, vraag naar plannen/voorbereidingen, vraag naar de bereidheid om die plannen uit te voeren of er juist van af te zien - (entrapment)\a4. Vraag naar de toekomst, zowel op korte als langere termijn; 'wat gaat u straks doen als u thuis bent?', 'hoe ziet u de toekomst op de langere termijn?' "},
-                "Automutilatie":"",
-                "Ander risico-gedrag":{"toelichting":"Dit kan betrekking hebben op andere vormen van gedrag die voor betrokkene of diens omgeving (inclusief degenen die aan zijn/haar zorg zijn toevertrouwd). Probeer te achterhalen of er sprake is of het gedrag doelgericht is en/of er sprake is van frustratie en/of er sprake is van acting-out. Taxeer risico's op dezelfde wijze als suïcidaliteit"},
-                "Impulsbeheersing":""               
+            "Tractus anamnese": {
+                "toelichting": "Vraag de volgende klachten uit, in de eigen woorden van betrokkene. Houd daarbij rekening met classificerende diagnostiek volgens de DSM-5-TR. Vraag bij herkenning van klachten telkens wanneer deze begonnen zijn, hoe het beloop is, welke factoren de klachten beïnvloeden en hoe ernstig deze zijn",
+                "Bewustzijn": "",
+                "Aandacht en concentratie": "",
+                "Geheugen": "",
+                "Waarneming": "",
+                "Zelfwaarneming": "",
+                "Inhoud van het denken": "",
+                "Stemming": "",
+                "Angsten": {
+                    "toelichting": "Vraag naar het type angst, lichamelijke sensaties en cognities. Bevraag ook paniek, dwanggedachten en dwanghandelingen"
+                },
+                "Slaap": {
+                    "toelichting": "Bevraag systematisch; hoe laat gaat betrokkene naar bed, hoe lang duurt het voor hij/zij in slaap valt, wordt hij/zij tussentijds wakker, zijn er problemen met te vroeg wakker worden?"
+                },
+                "Voeding en gewicht": "",
+                "Trauma": {
+                    "toelichting": "Vraag naar gebeurtenissen die betrokkene als traumatisch heeft ervaren, geef eventueel een omschrijving van traumatische gebeurtenissen"
+                },
+                "Life-events": "",
+                "Suïcidaliteit": {
+                    "toelichting": "Vraag hier concreet en rechtstreeks naar. Indien er sprake is van suïcidaliteit, hanteer dan de CASE-methodiek:\a1. Vraag naar de ruime voorgeschiedenis van suïcidaliteit - (langdurige kwetsbaarheid)\a2. Vraag naar relevante gebeurtenissen in de recente voorgeschiedenis - (stressor)\a3. Vraag naar actuele suïcidale gedachten, vraag naar de intensiteit, vraag naar plannen/voorbereidingen, vraag naar de bereidheid om die plannen uit te voeren of er juist van af te zien - (entrapment)\a4. Vraag naar de toekomst, zowel op korte als langere termijn; 'wat gaat u straks doen als u thuis bent?', 'hoe ziet u de toekomst op de langere termijn?' "
+                },
+                "Automutilatie": "",
+                "Ander risico-gedrag": {
+                    "toelichting": "Dit kan betrekking hebben op andere vormen van gedrag die voor betrokkene of diens omgeving (inclusief degenen die aan zijn/haar zorg zijn toevertrouwd). Probeer te achterhalen of er sprake is of het gedrag doelgericht is en/of er sprake is van frustratie en/of er sprake is van acting-out. Taxeer risico's op dezelfde wijze als suïcidaliteit"
+                },
+                "Impulsbeheersing": "",
             },
-            "Ontwikkelingsanamnese": {
-                "toelichting":"Bij voorkeur hetero-anamnestisch afnemen bij een ouder/verzorger",
-                "Perinatale periode": "",
-                "Motoriek en spraak": "",
-                "Zindelijkheid": "",
-                "Sociale ontwikkeling": "",
-                "Intellectuele ontwikkeling": "",
-            },
-            "Persoonlijkheidsfunctioneren":{
-                "toelichting":"Het gaat hier om de beleving c.q. de ervaring van betrokkene zelf op deze domeinen. De beleving van betrokkene kan heel goed anders zijn dan je eigen observatie/inschatting/interpretatie of hypothese. Dat is niet erg maar dat wordt later op systematische wijze besproken, volsta hier gewoon met een 'zelfbeschrijving'.",
-                "Identiteit": {"toelichting":"Heeft betrokkene een duidelijk gevoel van eigenheid en blijft dat behouden onder druk en onder stress? \aHeeft betrokkene een voldoende positief gevoel van eigenwaarde en is dat gevoel consistent met zelfverwezenlijking en kwaliteiten? Wat gebeurt er met dat gevoel onder stress? Wat is bepalend voor het gevoel van eigenwaarde?\aIs betrokkene in staat om het volledige palet aan emoties te ervaren? Is de intensiteit normaal, te hoog of te laag in relatie tot de onderliggende werkelijkheid? Is betrokkene in staat emoties geintegreerd te ervaren, is er ruimte voor nuance of is het zwart-wit?" },
-                "Zelfsturing": {"toelichting":"Stelt betrokkene zichzelf doelen en zijn die doelen authentiek, persoonlijk en realistisch? Zet betrokkene ook realistische stappen om deze doelen te behalen?\aHeet betrokkene duidelijke normen en maatstaven waaraan hij/zij moet voldoen?Hoe gaat betrokkene met deze normen om? Streng/rigide of juist laks/passief?\aIs betrokkene in staat om over eigen mentale processen te reflecteren?"},
-                "Empathie": {"toelichting":"Is betrokkene in staat om de gedachtengang van anderen te volgen en te begrijpen? Is betrokkene erg gevoelig voor bepaalde emoties bij anderen? Kleurt dit de vermeende intenties van anderen?\aKan betrokkene inzien dat anderen een andere visie op iets hebben? Hoe ervaart betrokkene een verschil van mening met anderen?\aKan betrokkene begrijpen en inschatten welke impact hij/zij op anderen heeft?"},
-                "Intimiteit": {"toelichting":"Is betrokkene in staat tot positieve verbondenheid met anderen? Is verbondenheid stabiel en langdurig positief?\aHeeft betrokkene een capaciteit to intieme/nabije verbondenheid? Is er sprake van wederkerigheid (i.e. wederzijdse waardering maar ook het vermogen om afhankelijkheid en kwetsbaarheid te verdragen)?\aIs betrokkene in staat tot constructieve samenwerking?"},                
-        },
         },
         "Bespreking": {
-            "Beschrijvende diagnose": {
-                "Context": {},
-                "Klachten en symptomen die op de voorgrond staan:": {},
-                "Hypothese over het toestandsbeeld": {},
-                "Hypothese over beïnvloedende factoren": {},
-            },
+            "Beschrijvende diagnose": {},
             "Classificerende diagnose": {},
+            "DSM-5-TR": {},
             "Differentiaal diagnostische overwegingen": {},
             "Advies voor inzet van interventie": {
                 "Belangrijkste focus voor interventie": {},
@@ -477,9 +457,94 @@ psychiatrie_interventieadvies_complex = {
                 "Inschatting van de duur en intensiteit van interventie of behandeling": {},
                 "Advies": {},
             },
-            "DSM-5-TR": {},
         },
-        "Beantwoording vraagstelling": {"verbergen": "ja"},
+        "Beantwoording vraagstelling": {"verbergen": "ja"}
+    },
+}
+
+psychiatrie_interventieadvies_kort = {
+    "bestandsnaam": "BP_interventieadvies_kort.docx",
+    "titel": "Interventieadvies",
+    "subtitel": "",
+    "hoofdstukken": {
+        "Onderzoek": {
+            "Ontwikkelingsanamnese": {"verbergen": "ja"},
+            "Persoonlijkheidsfunctioneren": {"verbergen": "ja"},
+        },
+        "Bespreking": {
+            "Beschrijvende diagnose": {
+                "Door betrokkene ervaren klachten en beperkingen": {
+                    "toelichting": "Bespreek hier zowel hetgeen betrokkene anamnestisch heeft vermeld."
+                },
+                "Geobserveerde symptomen": {
+                    "toelichting": "Beschrijf hier de tijdens het onderzoek geobserveerde afwijkingen zoals die bijvoorbeeld blijken bij het psychiatrisch onderzoek. Bespreek hier ook eventueel heteroanamnestische informatie en objectieve informatie uit andere bronnen"
+                },
+                "Hypothese over het persoonlijkheidsfunctioneren": {
+                    "toelichting": "Beschrijf hier kort of er sprake lijkt te zijn van patroonmatige symptomatologie en/of problemen in het persoonlijkheidsfunctioeren"
+                },
+                "Hypothese over beïnvloedende factoren": {},
+                "Hypothese over het toestandsbeeld": {},
+            },
+        },
+    },
+}
+
+psychiatrie_interventieadvies_complex = {
+    "bestandsnaam": "BP_interventieadvies_complex.docx",
+    "titel": "Interventieadvies",
+    "subtitel": "Complexe problematiek",
+    "hoofdstukken": {
+        "Algemeen": {"Vraagstelling": {"verbergen": "ja"}},
+        "Onderzoek": {
+            "Ontwikkelingsanamnese": {
+                "toelichting": "Bij voorkeur hetero-anamnestisch afnemen bij een ouder/verzorger",
+                "Perinatale periode": "",
+                "Motoriek en spraak": "",
+                "Zindelijkheid": "",
+                "Sociale ontwikkeling": "",
+                "Intellectuele ontwikkeling": "",
+            },
+            "Persoonlijkheidsfunctioneren": {                
+                "toelichting": "Het gaat hier om de beleving c.q. de ervaring van betrokkene zelf op deze domeinen. De beleving van betrokkene kan heel goed anders zijn dan je eigen observatie/inschatting/interpretatie of hypothese. Dat is niet erg maar dat wordt later op systematische wijze besproken, volsta hier gewoon met een 'zelfbeschrijving'.",
+                "Identiteit": {
+                    "toelichting": "Heeft betrokkene een duidelijk gevoel van eigenheid en blijft dat behouden onder druk en onder stress? \aHeeft betrokkene een voldoende positief gevoel van eigenwaarde en is dat gevoel consistent met zelfverwezenlijking en kwaliteiten? Wat gebeurt er met dat gevoel onder stress? Wat is bepalend voor het gevoel van eigenwaarde?\aIs betrokkene in staat om het volledige palet aan emoties te ervaren? Is de intensiteit normaal, te hoog of te laag in relatie tot de onderliggende werkelijkheid? Is betrokkene in staat emoties geintegreerd te ervaren, is er ruimte voor nuance of is het zwart-wit?"
+                },
+                "Zelfsturing": {
+                    "toelichting": "Stelt betrokkene zichzelf doelen en zijn die doelen authentiek, persoonlijk en realistisch? Zet betrokkene ook realistische stappen om deze doelen te behalen?\aHeet betrokkene duidelijke normen en maatstaven waaraan hij/zij moet voldoen?Hoe gaat betrokkene met deze normen om? Streng/rigide of juist laks/passief?\aIs betrokkene in staat om over eigen mentale processen te reflecteren?"
+                },
+                "Empathie": {
+                    "toelichting": "Is betrokkene in staat om de gedachtengang van anderen te volgen en te begrijpen? Is betrokkene erg gevoelig voor bepaalde emoties bij anderen? Kleurt dit de vermeende intenties van anderen?\aKan betrokkene inzien dat anderen een andere visie op iets hebben? Hoe ervaart betrokkene een verschil van mening met anderen?\aKan betrokkene begrijpen en inschatten welke impact hij/zij op anderen heeft?"
+                },
+                "Intimiteit": {
+                    "toelichting": "Is betrokkene in staat tot positieve verbondenheid met anderen? Is verbondenheid stabiel en langdurig positief?\aHeeft betrokkene een capaciteit to intieme/nabije verbondenheid? Is er sprake van wederkerigheid (i.e. wederzijdse waardering maar ook het vermogen om afhankelijkheid en kwetsbaarheid te verdragen)?\aIs betrokkene in staat tot constructieve samenwerking?"
+                },
+            },
+        },
+        "Bespreking": {
+            "Beschrijvende diagnose": {
+                "Context": {},
+                "Door betrokkene ervaren en gerapporteerde klachten": {
+                    "toelichting": "Bespreek hier zowel hetgeen betrokkene anamnestisch heeft vermeld als hetgeen uit de zelfrapportage-meetinstrumenten blijkt. Bespreek dit in aparte alinea's en geef weer of het anamnestische beeld wel/niet overeenkomt met het beel op de zelfrapportage-instrumenten"
+                },
+                "Geobserveerde symptomen": {
+                    "toelichting": "Beschrijf hier de tijdens het onderzoek geobserveerde afwijkingen zoals die bijvoorbeeld blijken bij het psychiatrisch onderzoek. Bespreek hier ook eventueel heteroanamnestische informatie en objectieve informatie uit andere bronnen"
+                },
+                "Persoonlijkheidsfunctioneren": {
+                    "toelichting": "Bespreek hier in ieder geval kort de wijze waarop betrokkene zichzelf in de paragraaf Persoonlijkheidsfunctioneren beschrijft. Bespreek hier ook hetgeen betrokkene over zichzelf zegt op de NPV-2-R en de NKPV\aBespreek hier ook de eigen bevindingen omtrent het persoonlijkheidsfunctioneren"
+                },
+                
+                "Hypothese over de organisatie van de persoonlijkheid": {
+                    "toelichting": "Ga hier uit van de DTP interpretatie van de NKPV en benoem die als dusdanig. Vermijd het als dusdanig benoemen van de profielen maar volsta met het benoemen van de verhouding tussen angstgevoeligheid/controle, de invloed van het temperament en de wijze waarop symptomatologie zich al dan niet uit. Ook aanvullende indrukken of hypotheses over de organisatie van de persoonlijkheid kunnen hier genoemd worden. Bespreek hier ook eventuel afwijkingen tussen hetgeen door betrokkene gezegd of anderszins gerapporteerd is enerzijds en hetgeen geobserveerd of objectief blijkt anderszins."
+                },
+                "Hypothese over beïnvloedende factoren in de huidige sociaal-maatschappelijke context": {},
+                "Hypothese over somatische beïnvloedende factoren": {},
+                "Hypothese over overige factoren van invloed": {
+                    "toelichting": "Denk hier aan traumatisering, negatieve omstandigheden tijdens de opvoeding, hechtingsproblematiek etc."
+                },
+                "Hypothese over het toestandsbeeld": {},
+            },
+        },
+        
     },
 }
 
@@ -491,13 +556,14 @@ def get_report():
         [
             basis_rapport,
             basis_rapport_psychiatrie,
+            psychiatrie_interventieadvies,
             psychiatrie_interventieadvies_complex,
         ],
         [
             basis_rapport,
             basis_rapport_psychiatrie,
-            psychiatrie_interventieadvies_complex,
             psychiatrie_interventieadvies,
+            psychiatrie_interventieadvies_kort,
         ],
         [basis_rapport, basis_rapport_psychiatrie, psychiatrie_belastbaarheid],
         [
