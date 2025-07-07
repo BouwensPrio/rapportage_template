@@ -29,6 +29,16 @@ commentaar_algemeen = "Na verzending van het definitieve rapport zijn zowel opdr
 context_algemene_toelichting = "Controleer altijd of de context juist is (arbeidsrechtelijk, civielrechtelijk, bestuursrechtelijk,...) en verbeter deze waar nodig. Ook kan hier een korte schets van de toedracht tot het onderzoek gegeven worden."
 
 contexten = {
+    "IA" : {
+        "Context":{
+            "toelichting": context_algemene_toelichting,
+            "tekst":"De rapportage wordt in een arbeidsrechtelijk kader uitgevoerd op verzoek van de werkgever c.q. de bedrijfsarts van betrokkene. Het doel van het onderzoek is de bedrijfsarts te informeren over de inzet van interventie en/of behandeling met als doel duurzame inzetbaarheid van betrokkene die werknemer is"
+        },
+        "Correcties": correcties_algemeen,
+        "Inzage- en blokkering": "Het inzage- en blokkeringsrecht zijn van toepassing. Betrokkene heeft op [DATUM] ter inzage het definitieve rapport toegestuurd gekregen. Aan betrokkene werd daarbij verzocht om voor [DATUM_2] kenbaar te maken of hij/zij akkoord gaat met verzending van de rapportage.\nBetrokkene reageerde op [DATUM_3] op dit verzoek en gaf daarbij aan dat het rapport WEL/NIET geblokkeerd was. Het rapport is daartoe [NIET VERZONDEN/VERZONDEN AAN DE OPDRACHTGEVER OP DATUM_4]\nBetrokkene reageerde niet binnen de daartoe afgesproken termijn, het rapport wordt daarom als geblokkeerd beschouwd en opdrachtgever werd daarvan op [DATUM_4] op de hoogte gesteld.",
+        "Commentaar": commentaar_algemeen,
+        
+    },
     "AOV": {
         "Context": {
             "toelichting": context_algemene_toelichting,
@@ -95,6 +105,7 @@ basis_rapport = {
         "Onderzoek": {},
         "Bespreking": {},
         "Beantwoording vraagstelling": {},
+        "Advies voor interventie":{"verbergen":"ja"}
     },
 }
 
@@ -405,7 +416,12 @@ psychiatrie_interventieadvies = {
     "bestandsnaam": "BP_interventieadvies.docx",
     "titel": "Interventieadvies",
     "hoofdstukken": {
-        "Algemeen": {"Vraagstelling": {"verbergen": "ja"}},
+        "Algemeen": {
+            "Context": contexten['IA']['Context'],
+            "Correcties":{"tekst": contexten['IA']['Correcties']},
+            "Inzage- en blokkering":{"tekst":contexten['IA']['Inzage- en blokkering']},
+            "Commentaar":{"tekst":contexten['IA']['Commentaar']},
+            "Vraagstelling": {"verbergen": "ja"}},
         "Onderzoek": {
             "Speciële anamnese": {
                 "toelichting": "We willen zicht krijgen op hoe betrokkene zelf het onderzoek ervaart, wat de hulpvraag van betrokkene zelf is en op welke manier betrokkene zijn/haar klachten, en de gevolgen daarvan ervaart. ",
@@ -449,16 +465,16 @@ psychiatrie_interventieadvies = {
             "Beschrijvende diagnose": {},
             "Classificerende diagnose": {},
             "DSM-5-TR": {},
-            "Differentiaal diagnostische overwegingen": {},
-            "Advies voor inzet van interventie": {
-                "Belangrijkste focus voor interventie": {},
+            "Differentiaal diagnostische overwegingen": {},            
+        },
+        "Beantwoording vraagstelling": {"verbergen": "ja"},
+        "Advies voor interventie":{
+            "Belangrijkste focus voor interventie": {},
                 "Type interventie of behandeling": {},
                 "Echelon op basis van complexiteit,ernst,comorbiditeit en risico's": {},
                 "Inschatting van de duur en intensiteit van interventie of behandeling": {},
                 "Advies": {},
-            },
-        },
-        "Beantwoording vraagstelling": {"verbergen": "ja"}
+        }
     },
 }
 
