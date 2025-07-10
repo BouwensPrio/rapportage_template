@@ -29,15 +29,14 @@ commentaar_algemeen = "Na verzending van het definitieve rapport zijn zowel opdr
 context_algemene_toelichting = "Controleer altijd of de context juist is (arbeidsrechtelijk, civielrechtelijk, bestuursrechtelijk,...) en verbeter deze waar nodig. Ook kan hier een korte schets van de toedracht tot het onderzoek gegeven worden."
 
 contexten = {
-    "IA" : {
-        "Context":{
+    "IA": {
+        "Context": {
             "toelichting": context_algemene_toelichting,
-            "tekst":"De rapportage wordt in een arbeidsrechtelijk kader uitgevoerd op verzoek van de werkgever c.q. de bedrijfsarts van betrokkene. Het doel van het onderzoek is de bedrijfsarts te informeren over de inzet van interventie en/of behandeling met als doel duurzame inzetbaarheid van betrokkene die werknemer is"
+            "tekst": "De rapportage wordt in een arbeidsrechtelijk kader uitgevoerd op verzoek van de werkgever c.q. de bedrijfsarts van betrokkene. Het doel van het onderzoek is de bedrijfsarts te informeren over de inzet van interventie en/of behandeling met als doel duurzame inzetbaarheid van betrokkene die werknemer is",
         },
         "Correcties": correcties_algemeen,
         "Inzage- en blokkering": "Het inzage- en blokkeringsrecht zijn van toepassing. Betrokkene heeft op [DATUM] ter inzage het definitieve rapport toegestuurd gekregen. Aan betrokkene werd daarbij verzocht om voor [DATUM_2] kenbaar te maken of hij/zij akkoord gaat met verzending van de rapportage.\nBetrokkene reageerde op [DATUM_3] op dit verzoek en gaf daarbij aan dat het rapport WEL/NIET geblokkeerd was. Het rapport is daartoe [NIET VERZONDEN/VERZONDEN AAN DE OPDRACHTGEVER OP DATUM_4]\nBetrokkene reageerde niet binnen de daartoe afgesproken termijn, het rapport wordt daarom als geblokkeerd beschouwd en opdrachtgever werd daarvan op [DATUM_4] op de hoogte gesteld.",
         "Commentaar": commentaar_algemeen,
-        
     },
     "AOV": {
         "Context": {
@@ -74,6 +73,313 @@ contexten = {
     },
 }
 
+FML = {
+    "bestandsnaam": "FML.docx",
+    "voorblad": "yes",
+    "titel": "Functionele mogelijkheden lijst",
+    "hoofdstukken": {
+        "Algemeen": {
+            "Functionele mogelijkheden lijst": {
+                "tekst": "Deze lijst geeft een overzicht van mogelijkheden om in het algemeen gedurende een hele werkdag (ten minste 8 uur) te functioneren. Beperkingen van deze mogelijkheden ten opzichte van de referentiewaarden worden in aparte rubrieken weergegeven, voor zover deze naar het oordeel van de verzekeringsarts uitingen zijn van ziekten, gebreken of ongeval/en. Als referentiewaarden zijn die niveaus van functioneren gekozen die het dagelijks leven regelmatig vereist. Tenzij uitdrukkelijk anders vermeld, is een incidentele piekbelasting of structureel marginaal hogere belasting eveneens mogelijk boven zowel de referentiewaarde als de aangenomen beperkte functionele mogelijkheden. Deze lijst is niet geschikt voor toepassing los van een verzekeringsgeneeskundige rapportage waarin de mogelijkheden en beperkingen aan de hand van een probleemanalyse in hun onderlinge samenhang beoordeeld, gemotiveerd en beschreven zijn."
+            },
+            "Conclusie": {
+                "tekst": "De cliënt beschikt over duurzaam benutbare mogelijkheden.\aDe client beschikt niet over duurzaam benutbare mogelijkheden."
+            },
+            "Toelichting": {
+                "tekst": "De client is in staat om het eigen werk volledig uit te voeren.\aDe client is in staat tot functioneren volgens de referentiewaarden (zie rubrieken).\aDe cliënt heeft beperkingen t.o.v. functioneren volgens de referentiewaarde (zie rubrieken).\aAnders, zie rapportage verzekeringsarts.\aDe client disfunctioneert persoonlijk en sociaal a.g.v. een ernstige psychische stoornis.\aDe cliënt is opgenomen in ziekenhuis of Wlz-erkende instelling.De cliënt is bedlegerig (grootste deel van de dag en langdurig).\aDe cliënt is in grote mate ADL-afhankelijk.\aDe cliënt heeft sterk wisselende mogelijkheden/verlies van mogelijkheden (< 3 mnd-1 jr)"
+            },
+            "Duurzaamheid arbeidsbeperking": {"tekst": " "},
+            "Algemene opmerkingen": {"tekst": "Opgesteld op [...]\aGeldig per [...]"},
+        },
+        "Rubriek I - Persoonlijk functioneren": {
+            "1. Vasthouden van de aandacht (concentreren) in het dagelijks functioneren": {
+                "tekst": 
+"""0   Norm. Kan de aandacht tenminste een half uur richten op één informatiebron.
+1   Beperkt. Kan de aandacht niet langer dan een half uur richten op één informatiebron.
+2   Sterk beperkt. Kan de aandacht niet langer dan 5 minuten richten op één informatiebron."""
+            },
+            "2. Verdelen van de aandacht in het dagelijks functioneren":{ 
+                "tekst":
+"""0   Norm. Kan de aandacht alternerend richten op meerdere uiteenlopende informatiebronnen (verkeersdeelname met een voertuig).
+1   Beperkt. Kan de aandacht alternerend richten op een beperkt aantal informatiebronnen (reizen met het OV).
+2   Sterk beperkt. Kan niet of nauwelijks de aandacht alternerend richten op uiteenlopende informatiebronnen."""},
+            "3. Herinneren in het dagelijks functioneren":{
+                "tekst":
+"""0   Norm. Kan zich doorgaans tijdig, zonder ongebruikelijke hulpmiddelen, relevante zaken herinneren.
+1    Beperkt. Moet regelmatig dingen apart opschrijven als geheugensteun om de continuïteit van handelen te waarborgen.
+2    Sterk beperkt. Weet zich onontbeerlijke alledaagse gegevens (tijd/plaats/persoon/onderwerp) niet te  herinneren en kan dit niet compenseren met hulpmiddelen."""},
+            "4. Inzicht in eigen kunnen in het dagelijks functioneren":{
+                "tekst":
+"""0   Norm. Schat doorgaans de eigen mogelijkheden en beperkingen realistisch in.
+1   Beperkt. Overschat doorgaans ernstig de eigen mogelijkheden.
+2   Beperkt. Overschat doorgaans ernstig de eigen beperkingen."""},
+            "5 Doelmatig handelen (taakuitvoering) in het dagelijks functioneren":{
+                "tekst": 
+"""0   Norm. Geen specifieke beperkingen in doelmatig handelen in de routine in het dagelijks functioneren.
+1   Beperkt: start niet tijdig activiteiten om het gestelde doel te bereiken.
+2   Beperkt: voert de benodigde activiteiten niet in een logische volgorde uit..
+3   Beperkt: controleert het verloop van de activiteiten niet.
+4   Beperkt: beëindigt de activiteiten niet als het gestelde doel bereikt is of niet bereikt kan worden.
+5   Anderszins beperkt in doelmatig handelen, namelijk:"""},
+             "6.  Zelfstandig handelen in het dagelijks functioneren":{ 
+                 "tekst":
+"""0   Norm. Geen specifieke beperkingen in het zelfstandig handelen in het dagelijks leven.
+1   Beperkt: neemt doorgaans niet uit zichzelf het initiatief tot handelen.
+2   Beperkt: stelt zichzelf doorgaans geen doelen.
+3   Beperkt: ontwerpt zelf doorgaans geen oplossingsvarianten.
+4   Beperkt: besluit doorgaans zelf niet welke aanpak de meest geëigende is.
+5   Beperkt: onderkent zelf doorgaans niet wanneer de gevolgde aanpak tekort schiet.
+6   Beperkt: kiest in dat geval doorgaans niet zelf voor een alternatieve aanpak of een ander doel.
+7   Beperkt: gaat uit zichzelf doorgaans niet door totdat het doel bereikt is.
+8   Beperkt: doet zelf niet tijdig een beroep op de hulp van anderen, wanneer de situatie dat gebiedt.
+9   Anderszins beperkt in zelfstandig handelen, namelijk:"""},
+             "7. Handelingstempo in het dagelijks functioneren":{ 
+                 "tekst":
+"""0   Norm. Er zijn geen specifieke beperkingen in handelingstempo in het dagelijks functioneren.
+1   Beperkt. Het handelingstempo is aanmerkelijk vertraagd."""},
+             "8. Specifieke voorwaarden voor het persoonlijk functioneren in arbeid – is het functioneren in arbeid door de genoemde beperkingen, of het daarop gerichte compensatiegedrag, afhankelijk van specifieke voorwaarden?":{ 
+                 "tekst":
+"""0   Nee. Geen specifieke voorwaarden voor het persoonlijk functioneren in arbeid.
+1   Ja: aangewezen op werk met niet of nauwelijks afleiding door activiteiten van anderen; namelijk ….
+2   Ja: aangewezen op een voorspelbare werksituatie, kan niet of nauwelijks flexibel inspelen op sterk wisselende uitvoeringsomstandig-heden en/of taakinhoud; namelijk: …
+3   Ja: werksituatie zonder veelvuldige storingen/onderbrekingen; namelijk: …
+4   Ja: werk zonder veelvuldige deadlines of productiepieken; namelijk: …
+5   Ja: werk waarin geen hoog handelingstempo vereist is; namelijk: …
+6   Ja: werk zonder verhoogd persoonlijk risico; namelijk: …
+7   Ja, er gelden overige specifieke voorwaarden voor persoonlijk functioneren, namelijk:"""},
+             
+            "9. Mate van zelfstandigheid":{ 
+                "tekst":
+"""0   Norm. Geen beperkingen.
+1   Beperkt, is aangewezen op vaste/bekende werkwijzen.
+2   Sterk beperkt, is aangewezen op volledig voorgestructureerd werk."""}
+        },
+        "Rubriek II - Sociaal functioneren": {
+            "1. Zien":{ 
+                "tekst":
+"""0   Norm. Geen specifieke beperkingen in het dagelijks functioneren.
+1   Beperkt, namelijk:"""},
+"2. Horen":{ 
+    "tekst":
+"""0   Norm. Geen specifieke beperkingen in het dagelijks functioneren.
+1   Beperkt, namelijk:"""},
+"3.  Spreken":{ 
+    "tekst": 
+"""0   Norm. Geen specifieke beperkingen in het dagelijks functioneren.
+1   Beperkt, namelijk:"""} ,
+"4. Schrijven":{ 
+    "tekst":
+"""0   Norm. Geen specifieke beperkingen in het dagelijks functioneren.
+1   Beperkt, namelijk:"""},
+"5. Lezen":{ 
+    "tekst":
+"""0   Norm. Geen specifieke beperkingen in het dagelijks functioneren.
+1   Beperkt, namelijk:"""},
+"6. Emotionele problemen van anderen hanteren":{ 
+    "tekst":
+"""0   Norm. Kan zich doorgaans inleven in problemen van anderen, maar kan daarvan ook afstand nemen in gedrag en beleving.
+1   Beperkt. Trekt zich doorgaans problemen van anderen erg aan; kan desondanks wel voldoende afstand nemen in gedrag, echter niet in beleving:
+2   Beperkt. Trekt zich doorgaans problemen van anderen onvoldoende aan; kan zich desondanks wel enigszins inleven in anderen en hen bijstaan/ondersteunen:
+3   Sterk beperkt. Trekt zich doorgaans problemen van anderen erg aan en kan daarvan noch in gedrag noch in beleving afstand nemen:
+4   Sterk beperkt. Trekt zich doorgaans problemen van anderen onvoldoende aan, kan zich niet inleven in anderen en hen ook niet bijstaan/ondersteunen:"""},
+"7. Eigen gevoelens uiten":{ 
+    "tekst": 
+"""0    Norm. Kan doorgaans persoonlijke gevoelens op een voor anderen duidelijke/acceptabele manier in woord en gedrag tot uiting brengen.
+1   Beperkt. Is doorgaans niet in staat gevoelens te uiten (blokkeert zichzelf): …
+2   Beperkt. Brengt anderen in verwarring door onduidelijke/onvoorspelbare/onconventionele wijzen van gevoelsuitingen: …
+3   Beperkt. Uit gevoelens op een ongecontroleerde (ongeremde) wijze:"""},
+"8. Omgaan met conflicten":{ 
+    "tekst":
+"""0   Norm. Geen specifieke beperking.
+1   Beperkt. Kan een conflict met agressieve/onredelijke mensen uitsluitend in telefonisch of schriftelijk contact hanteren. 
+2   Sterk beperkt. Kan doorgaans geen conflicten hanteren."""},
+"9. Samenwerken":{
+    "tekst":
+"""0    Norm. Kan in onderlinge afstemming met anderen een taak gezamenlijk uitvoeren (werken in teamverband).
+1    Beperkt. Kan met anderen samenwerken, maar met een eigen, van tevoren afgebakende deeltaak. 
+2    Sterk beperkt. Kan doorgaans niet met anderen samenwerken."""}, 
+"10. Vervoer":{ 
+    "tekst":
+"""0   Norm. Geen specifieke beperkingen. Kan zelfstandig reizen; autorijden, fietsen (verkeersdeelname) of zelfstandig gebruik maken van het openbaar vervoer.
+1   Beperkt. Kan niet zelfstandig reizen, namelijk:"""}, 
+"11. Beroepsmatig vervoer":{ 
+    "tekst":
+"""0   Norm. Geen specifieke beperkingen.
+1   Beperkt. Kan niet of beperkt beroepsmatig een voertuig besturen; namelijk:"""},
+"12. Specifieke voorwaarden voor het sociaal functioneren in arbeid – is het sociaal functioneren door de genoemde  beperkingen, of het daarop gerichte compensatiegedrag, afhankelijk van specifieke voorwaarden?":{ 
+    "tekst":
+"""0   Nee. Geen specifieke voorwaarden voor het sociaal functioneren in arbeid.
+1   Ja: aangewezen op werk waarin doorgaans weinig of geen rechtstreeks contact met klanten vereist is; namelijk:
+2   Ja: aangewezen op werk waarin doorgaans weinig of geen direct contact met patiënten of hulpbehoevenden vereist is; namelijk:
+3   Ja: aangewezen op werk waarin z.n. kan worden teruggevallen op directe collega’s/leidinggevenden (geen solitaire functie).
+4   Ja: aangewezen op werk waarin doorgaans geen direct contact met collega’s is vereist.
+5   Ja: aangewezen op werk dat geen leidinggevende aspecten bevat; namelijk: 
+6   Ja, er gelden overige specifieke voorwaarden, namelijk; namelijk:"""}
+
+            },
+        "Rubriek III - Aanpassingen aan fysieke omgevingseisen": {
+            "1. Temperatuur":{ 
+                "tekst":
+"""0   Norm. Geen specifieke beperkingen.
+1   Beperkt. Hitte is beperkt (>35ºC).
+2   Beperkt. Koude is beperkt (< -15ºC)."""},
+"2. Tocht":{ 
+    "tekst":
+"""0   Norm. Geen specifieke beperkingen.
+1   Beperkt, namelijk:"""},
+"3. Huidcontact":{ 
+    "tekst":
+"""0   Norm. Geen specifieke beperkingen.
+1   Beperkt, namelijk:"""},
+"4. Beschermende middelen":{ 
+    "tekst":
+"""0   Norm. Geen specifieke beperkingen.
+1   Beperkt, namelijk:"""},
+"5. Stof, rook, gassen en/of dampen":{ 
+    "tekst":
+"""0   Norm. Geen specifieke beperkingen.
+1   Beperkt, namelijk:"""},
+"6. Geluidsbelasting":{ 
+    "tekst":
+"""0   Norm. Geen specifieke beperkingen.
+1   Beperkt, namelijk:"""},
+"7. Trillingsbelasting":{ 
+    "tekst":
+"""0   Norm. Geen specifieke beperkingen.
+1   Beperkt, namelijk:"""},
+"8. Overige beperkingen van fysieke aanpassingsmogelijkheden":{ 
+    "tekst":
+"""0   Norm. Geen specifieke overige beperkingen in fysieke aanpassingsmogelijkheden.
+1   Ja: allergie:
+2   Ja: verhoogde vatbaarheid voor infecties:
+3   Ja: verzwakte huidbarrière:
+4   Ja: andere beperkingen, te weten:"""}
+},
+        "Rubriek IV - Dynamische handelingen": {
+    "1. Dominantie": {
+        "tekst": "0   Niet van toepassing\n1   Rechts\n2   Links"
+    },
+    "2. Localisatie beperkingen": {
+        "tekst": "0   Niet van toepassing\n1   Rechts\n2   Links\n3   Tweezijdig"
+    },
+    "3. Hand- en vingergebruik": {
+        "tekst": "0   Norm. Geen specifieke beperkingen bij het gebruik van handen en vingers in het dagelijks functioneren.\n1   De bolgreep is beperkt; namelijk:\n2   De pengreep is beperkt; namelijk:\n3   De pincetgreep is beperkt; namelijk:\n4   De sleutelgreep is beperkt; namelijk:\n5   De cilindergreep is beperkt; namelijk:\n6   Knijp/grijpkracht is beperkt; namelijk:\n7   Fijn-motorische hand-/vingerbewegingen zijn beperkt; namelijk:\n8   Repetitieve hand-/vingerbewegingen zijn beperkt; namelijk:\n9   Toetsenbord bedienen en muis hanteren is beperkt; namelijk:"
+    },
+    "4. Werken met toetsenbord en/of muis": {
+        "tekst": "0   Norm. Kan zo nodig gedurende het merendeel van de werkdag een met een toetsenbord en/of muis werken.\n1   Licht beperkt. Kan zo nodig gedurende de helft van de werkdag (ongeveer 4 uur) met een toetsenbord en/of muis werken.\n2   Beperkt. Kan zo nodig gedurende een beperkt deel van de werkdag (ongeveer 1 uur) met een toetsenbord en/of muis werken.\n3   Sterk beperkt. Kan gedurende minder dan een half uur per werkdag met een toetsenbord en/of muis werken."
+    },
+    "5. Tastzin": {
+        "tekst": "0   Norm. Geen specifieke beperkingen.\n1   Beperkt, namelijk:"
+    },
+    "6. Schroefbewegingen met hand en arm": {
+        "tekst": "0   Norm. Geen specifieke beperkingen.\n1   Beperkt, namelijk:"
+    },
+    "7. Reiken": {
+        "tekst": "0   Norm. Maximale reikafstand is 70cm.\n1   Licht beperkt. Maximale reikafstand is 60 cm.\n2   Beperkt. Maximale reikafstand is 50 cm."
+    },
+    "8. Frequent reiken tijdens werk": {
+        "tekst": "0   Norm. Kan zo nodig tijdens elk uur van de werkdag 1200x (20x/min) reiken.\n1   Beperkt. Kan zo tijdens elk uur van de werkdag ongeveer 600x reiken.\n2   Sterk beperkt. Kan zo nodig tijdens elk uur van de werkdag ongeveer 300x reiken."
+    },
+    "9. Buigen": {
+        "tekst": "0   Norm. Kan ongeveer 90 graden buigen.\n1   Beperkt. Kan ongeveer 60 graden buigen.\n2   Sterk beperkt. Kan ongeveer 45 graden buigen."
+    },
+    "10. Frequent buigen tijdens werk": {
+        "tekst": "0   Norm. Kan zo tijdens elk uur van de werkdag ongeveer 600x buigen.\n1   Licht beperkt. zo tijdens elk uur van de werkdag ongeveer 300x buigen.\n2   Beperkt. zo tijdens elk uur van de werkdag ongeveer 150x buigen.\n3   Sterk beperkt. zo tijdens elk uur van de werkdag ongeveer 50x buigen."
+    },
+    "11. Torderen": {
+        "tekst": "0   Norm. Kan de romp ten minste 45 graden draaien in zittende houding, met gefixeerd bekken.\n1   Beperkt, namelijk: ..."
+    },
+    "12. Duwen of trekken": {
+        "tekst": "0   Norm. Kan ongeveer 250N (25 kgF) duwen of trekken.\n1   Beperkt. Kan ongeveer 150N (15 kgF) duwen of trekken.\n2   Sterk beperkt. Kan ongeveer 100N (10 kgF) duwen of trekken."
+    },
+    "13. Tillen": {
+        "tekst": "0   Norm. Kan ongeveer 15 kg tillen (t/m 10x/u).\n1   Licht beperkt. Kan ongeveer 10 kg tillen (t/m 10x/u).\n2   Beperkt. Kan ongeveer 5 kg tillen (t/m 50x/u).\n3   Sterk beperkt. Kan ongeveer 2 kg tillen (t/m 100x/u)."
+    },
+    "14. Dragen": {
+        "tekst": "0   Norm. Kan ongeveer 15 kg dragen (t/m 4’ aaneen).\n1   Licht beperkt. Kan ongeveer 10 kg dragen (t/m 2’ aaneen).\n2   Beperkt. Kan ongeveer 5 kg dragen (t/m 1’ aaneen).\n3   Sterk beperkt. Kan ongeveer 2 kg dragen (t/m 2’ aaneen indien t/m 5x/u; 1’ indien>5x/u)."
+    },
+    "15. Hoofdbewegingen maken": {
+        "tekst": "0   Norm. Kan het hoofd ongehinderd bewegen (120x/u).\n1   Beperkt. Kan het hoofd beperkt bewegen, namelijk: ...\n2   Sterk beperkt: kan het hoofd niet of nauwelijks bewegen, namelijk ..."
+    },
+    "16. Lopen": {
+        "tekst": "0   Norm. Kan ongeveer een uur achtereen lopen (3 km/u).\n1   Licht beperkt. Kan ongeveer 30 minuten achtereen lopen.\n2   Beperkt. Kan ongeveer 15 minuten achtereen lopen.\n3   Sterk beperkt. Kan minder dan ongeveer 5 minuten achtereen lopen."
+    },
+    "17. Lopen tijdens het werk": {
+        "tekst": "0   Norm. Kan zo nodig gedurende het merendeel van de werkdag lopen (3km/u).\n1   Licht beperkt. Kan zo nodig gedurende de helft van de werkdag (ongeveer 4 uur) lopen.\n2   Beperkt. Kan zo nodig gedurende een beperkt deel van de werkdag (ongeveer 1 uur) lopen.\n3   Sterk beperkt. Kan gedurende minder dan een half uur per werkdag lopen."
+    },
+    "18. Trappenlopen": {
+        "tekst": "0   Norm. Kan ten minste in één keer 2 trappen op en af (totaal 60 treden).\n1   Licht beperkt. Kan ten minste in één keer 1 trap op en af (totaal 30 treden).\n2   Beperkt. Kan in één keer 1 trap op òf af (totaal 15 treden).\n3   Sterk beperkt. Kan in één keer slechts een bordestrapje op- of aflopen."
+    },
+    "19. Klimmen": {
+        "tekst": "0   Norm. Kan ten minste een ladder op en af (gemiddeld 5m).\n1   Licht beperkt. Kan ten minste een huishoudtrap op en af (gemiddeld 3 meter).\n2   Beperkt. Kan ten minste een opstapje op en af.\n3   Sterk beperkt. Kan geen opstap maken."
+    },
+    "20. Knielen en/of hurken": {
+        "tekst": "0   Norm. Kan 10x/u knielend of hurkend met de handen de grond bereiken.\n1   Licht beperkt. Kan hooguit 5x/u knielend en/of hurkend met de handen de grond bereiken.\n2   Beperkt. Kan hooguit 2x/u knielend en/of hurkend met de handen de grond bereiken.\n3   Sterk beperkt. Kan niet of nauwelijks knielend en/of hurkend met de handen de grond bereiken."
+    },
+    "21. Overige beperkingen van dynamisch handelen": {
+        "tekst": "0   Norm. Geen specifieke overige beperkingen in dynamisch handelen.\n1   Ja, er gelden specifieke overige beperkingen, namelijk: ..."
+    }
+},
+
+"Rubriek V - Statische houdingen": {
+    "1. Zitten": {
+        "tekst": "0   Norm. Kan ongeveer 2 uur achtereen zitten.\n1   Licht beperkt. Kan ongeveer een uur achtereen zitten.\n2   Beperkt. Kan ongeveer een half uur  achtereen zitten.\n3   Sterk beperkt. Kan minder dan een kwartier achtereen zitten."
+    },
+    "2. Zitten tijdens het werk": {
+        "tekst": "0   Norm. Kan zo nodig gedurende vrijwel de gehele werkdag zitten.\n1   Licht beperkt. Kan zo nodig gedurende het grootste deel van de werkdag zitten (niet meer dan 8 uur).\n2   Beperkt. Kan zo nodig gedurende de helft van de werkdag (ongeveer 4 uur) zitten.\n3   Sterk beperkt. Kan minder dan 4 uur per werkdag zitten."
+    },
+    "3. Staan": {
+        "tekst": "0   Norm. Kan ongeveer een uur achtereen staan.\n1   Licht beperkt. Kan ongeveer een half uur achtereen staan.\n2   Beperkt. Kan ongeveer 15 minuten achtereen staan.\n3   Sterk beperkt. Kan minder dan 5 minuten achtereen staan."
+    },
+    "4. Staan tijdens het werk": {
+        "tekst": "0   Norm. Kan zo nodig gedurende het merendeel van de werkdag staan.\n1   Licht beperkt. Kan zo nodig gedurende de helft van de werkdag staan (ongeveer 4 uur).\n2   Beperkt. Kan zo nodig gedurende een beperkt deel van de werkdag (ongeveer 1 uur) staan.\n3   Sterk beperkt. Kan minder dan een half uur per werkdag staan."
+    },
+    "5. Geknield of gehurkt actief zijn": {
+        "tekst": "0   Norm. Kan dit ten minste 5 minuten achtereen (2x/u).\n1   Beperkt. Kan dit minder dan 5 minuten achtereen; te weten: ..."
+    },
+    "6. Gebogen en/of getordeerd actief zijn": {
+        "tekst": "0   Norm. Kan dit 5 minuten of meer achtereen (2x/u).\n1   Beperkt. Kan dit tot 5 minuten achtereen.\n2   Sterk beperkt. Kan dit tot 2 minuten achtereen."
+    },
+    "7. Boven schouderhoogte actief zijn": {
+        "tekst": "0   Norm. Kan dit 2 minuten achtereen (10x/u).\n1   Beperkt. Kan dit ongeveer 1 minuut achtereen; namelijk: …\n2   Sterk beperkt. Kan dit niet of nauwelijks; namelijk: …"
+    },
+    "8. Het hoofd in een bepaalde stand houden": {
+        "tekst": "0   Norm. Kan dit zo nodig gedurende het merendeel van de werkdag.\n1   Licht beperkt. Kan dit zo nodig gedurende de helft van de werkdag (ongeveer 4 uur).\n2   Beperkt. Kan dit zo nodig gedurende een beperkt deel van de werkdag (ongeveer 1 uur).\n3   Sterk beperkt. Kan dit minder dan een half uur per werkdag."
+    },
+    "9. Afwisseling van houding": {
+        "tekst": "0   Norm. Geen specifieke opeenvolging van verschillende houdingen vereist.\n1   Beperkt. Specifieke afwisseling van houdingen vereist, namelijk: ..."
+    },
+    "10. Overige beperkingen van statische houdingen": {
+        "tekst": "0   Norm. Geen specifieke overige beperkingen m.b.t. statische houdingen.\n1   Ja, er gelden specifieke overige beperkingen, namelijk: ..."
+    }
+},
+"Rubriek VI - Werktijden": {
+    "1. Perioden van het etmaal": {
+        "tekst": "0   Norm. Kan zo nodig op elk uur van het etmaal werken, ook ‘s nachts.\n1   Beperkt. Kan niet elke avond werken (18:00 – 22:00 u), namelijk: ...\n2   Beperkt. Kan ‘s nachts niet werken (22:00 – 6:00 u)"
+    },
+    "2. Uren per dag": {
+        "tekst": "0   Norm. Kan gemiddeld ten minste 8 uur per dag werken.\n1   Enigszins beperkt. Kan gemiddeld ongeveer 8 uur per dag werken.\n2   Licht beperkt. Kan gemiddeld ongeveer 6 uur per dag werken, namelijk: ...\n3   Beperkt. Kan gemiddeld ongeveer 4 uur per dag werken, namelijk: ...\n4   Zeer beperkt. Kan gemiddeld ongeveer 2 uur per dag werken, namelijk: ..."
+    },
+    "3. Uren per week": {
+        "tekst": "0   Norm. Kan gemiddeld tenminste 40 uur per week werken.\n1   Enigszins beperkt. Kan gemiddeld ongeveer 40 uur per week werken.\n2   Licht beperkt. Kan gemiddeld ongeveer 30 uur per week werken, namelijk: ...\n3   Beperkt. Kan gemiddeld ongeveer 20 uur per week werken, namelijk: ...\n4   Zeer beperkt. Kan gemiddeld ongeveer 10 uur per week werken, namelijk: ..."
+    },
+    "4. Overige beperkingen ten aanzien van werktijd": {
+        "tekst": "0   Norm. Geen specifieke overige beperkingen ten aanzien van werktijden.\n1   Ja, er gelden specifieke overige beperkingen, namelijk: ..."
+    }
+}
+
+    },
+}
+
+temp = """"
+            
+            
+             ...
+            ... 
+            
+            """
+
+
 basis_rapport = {
     "bestandsnaam": "basis_rapport.docx",
     "voorblad": "yes",
@@ -105,7 +411,7 @@ basis_rapport = {
         "Onderzoek": {},
         "Bespreking": {},
         "Beantwoording vraagstelling": {},
-        "Advies voor interventie":{"verbergen":"ja"}
+        "Advies voor interventie": {"verbergen": "ja"},
     },
 }
 
@@ -417,11 +723,14 @@ psychiatrie_interventieadvies = {
     "titel": "Interventieadvies",
     "hoofdstukken": {
         "Algemeen": {
-            "Context": contexten['IA']['Context'],
-            "Correcties":{"tekst": contexten['IA']['Correcties']},
-            "Inzage- en blokkering":{"tekst":contexten['IA']['Inzage- en blokkering']},
-            "Commentaar":{"tekst":contexten['IA']['Commentaar']},
-            "Vraagstelling": {"verbergen": "ja"}},
+            "Context": contexten["IA"]["Context"],
+            "Correcties": {"tekst": contexten["IA"]["Correcties"]},
+            "Inzage- en blokkering": {
+                "tekst": contexten["IA"]["Inzage- en blokkering"]
+            },
+            "Commentaar": {"tekst": contexten["IA"]["Commentaar"]},
+            "Vraagstelling": {"verbergen": "ja"},
+        },
         "Onderzoek": {
             "Speciële anamnese": {
                 "toelichting": "We willen zicht krijgen op hoe betrokkene zelf het onderzoek ervaart, wat de hulpvraag van betrokkene zelf is en op welke manier betrokkene zijn/haar klachten, en de gevolgen daarvan ervaart. ",
@@ -465,16 +774,16 @@ psychiatrie_interventieadvies = {
             "Beschrijvende diagnose": {},
             "Classificerende diagnose": {},
             "DSM-5-TR": {},
-            "Differentiaal diagnostische overwegingen": {},            
+            "Differentiaal diagnostische overwegingen": {},
         },
         "Beantwoording vraagstelling": {"verbergen": "ja"},
-        "Advies voor interventie":{
+        "Advies voor interventie": {
             "Belangrijkste focus voor interventie": {},
-                "Type interventie of behandeling": {},
-                "Echelon op basis van complexiteit,ernst,comorbiditeit en risico's": {},
-                "Inschatting van de duur en intensiteit van interventie of behandeling": {},
-                "Advies": {},
-        }
+            "Type interventie of behandeling": {},
+            "Echelon op basis van complexiteit,ernst,comorbiditeit en risico's": {},
+            "Inschatting van de duur en intensiteit van interventie of behandeling": {},
+            "Advies": {},
+        },
     },
 }
 
@@ -520,7 +829,7 @@ psychiatrie_interventieadvies_complex = {
                 "Sociale ontwikkeling": "",
                 "Intellectuele ontwikkeling": "",
             },
-            "Persoonlijkheidsfunctioneren": {                
+            "Persoonlijkheidsfunctioneren": {
                 "toelichting": "Het gaat hier om de beleving c.q. de ervaring van betrokkene zelf op deze domeinen. De beleving van betrokkene kan heel goed anders zijn dan je eigen observatie/inschatting/interpretatie of hypothese. Dat is niet erg maar dat wordt later op systematische wijze besproken, volsta hier gewoon met een 'zelfbeschrijving'.",
                 "Identiteit": {
                     "toelichting": "Heeft betrokkene een duidelijk gevoel van eigenheid en blijft dat behouden onder druk en onder stress? \aHeeft betrokkene een voldoende positief gevoel van eigenwaarde en is dat gevoel consistent met zelfverwezenlijking en kwaliteiten? Wat gebeurt er met dat gevoel onder stress? Wat is bepalend voor het gevoel van eigenwaarde?\aIs betrokkene in staat om het volledige palet aan emoties te ervaren? Is de intensiteit normaal, te hoog of te laag in relatie tot de onderliggende werkelijkheid? Is betrokkene in staat emoties geintegreerd te ervaren, is er ruimte voor nuance of is het zwart-wit?"
@@ -548,7 +857,6 @@ psychiatrie_interventieadvies_complex = {
                 "Persoonlijkheidsfunctioneren": {
                     "toelichting": "Bespreek hier in ieder geval kort de wijze waarop betrokkene zichzelf in de paragraaf Persoonlijkheidsfunctioneren beschrijft. Bespreek hier ook hetgeen betrokkene over zichzelf zegt op de NPV-2-R en de NKPV\aBespreek hier ook de eigen bevindingen omtrent het persoonlijkheidsfunctioneren"
                 },
-                
                 "Hypothese over de organisatie van de persoonlijkheid": {
                     "toelichting": "Ga hier uit van de DTP interpretatie van de NKPV en benoem die als dusdanig. Vermijd het als dusdanig benoemen van de profielen maar volsta met het benoemen van de verhouding tussen angstgevoeligheid/controle, de invloed van het temperament en de wijze waarop symptomatologie zich al dan niet uit. Ook aanvullende indrukken of hypotheses over de organisatie van de persoonlijkheid kunnen hier genoemd worden. Bespreek hier ook eventuel afwijkingen tussen hetgeen door betrokkene gezegd of anderszins gerapporteerd is enerzijds en hetgeen geobserveerd of objectief blijkt anderszins."
                 },
@@ -560,13 +868,13 @@ psychiatrie_interventieadvies_complex = {
                 "Hypothese over het toestandsbeeld": {},
             },
         },
-        
     },
 }
 
 
 def get_report():
     reports = [
+        [FML],
         [basis_rapport],
         [basis_rapport, basis_rapport_psychiatrie],
         [
