@@ -1111,7 +1111,7 @@ def merge_reports(reports):
         reports[1] = merge(reports[0], reports[1])
         reports = reports[1:]
     if len(reports) == 1:
-        pprint(reports[0])
+        # pprint(reports[0])
         return reports[0]
     pass
 
