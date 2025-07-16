@@ -412,6 +412,7 @@ checklist = {
     "bestandsnaam" : "checklist_en_feedback.docx",
     "voorblad": "yes",
     "titel" : "Zelfcheck en feedback",
+    "checklists" : True,
     "subtitel": "ALLEEN VOOR INTERN GEBRUIK",
     "hoofdstukken": {
         "Algemene eisen": {
