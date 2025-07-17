@@ -418,20 +418,21 @@ checklist = {
         "Algemene eisen": {
             "Algemeen":{
             "toelichting":"Voldoet het rapport aan de eisen zoals verwoord in de richtlijn van de NVMSR van 2024?",
-            "Deskundigheid":"",
-            "Zorgvuldigheid": "",
-            "Intersubjectieve toetsbaarheid": "",
-            "Relevantie": "",
-            "Consistentie": {"toelichting":"Vloeien de antwoorden op de vraagstelling logisch voort uit de conclusie?\nVloeit de conclusie logisch voort ui de beschouwing?\nVloeit de beschouwing logisch voort uit de vermelde feiten en constateringen?\nZijn de feiten waaraan wordt gerefereerd traceerbaar?"},
-            "Begrijpelijkheid": "",
-            "Onderzoeksmethode": "",
-            "Onbevooroordeeldheid": ""
+            "Deskundigheid":{"toelichting":"Deze eis houdt onder meer in dat de deskundige zijn uitspraken doet op grond van zijn kennis van de actuele, dan wel ten jde van het incident vigerende professionele standaard en de stand van de medische wetenschap en op grond van de op zijn vakgebied algemeen aanvaarde inzichten en opva ngen die relevant zijn in de context van de te beantwoorden vraagstelling. Eveneens houdt deze eis in dat de deskundige geen uitspraken doet die buiten zijn vakgebied of anderszins buiten zijn competenie vallen. "},
+            "Zorgvuldigheid": {"toelichting":"Deze eis houdt onder meer in dat de nodige zorg wordt besteed aan een overzichtelijke opbouw en indeling van het rapport. Het rapport ziet er professioneel uit. De deskundige drukt zich zorgvuldig in woord en geschri uit zoals dat gebruikelijk is binnen zijn vakgebied. Er wordt zorg besteed aan correct, zakelijk en begrijpelijk taalgebruik. De deskundige vermijdt onnodig grievend danwel niet objec ef taalgebruik.  Onnodig medisch jargon en ingewikkeld taalgebruik moeten zoveel (of waar mogelijk) mogelijk worden vermeden. Dat geldt in het bijzonder bij het formuleren van overwegingen en conclusies en bij het beantwoorden van de vragen die ook voor derden begrijpelijk dienen te zijn. De deskundige waakt voor het doen van al te stellige uitspraken als daar geen of onvoldoende basis voor is. De deskundige draagt steeds zorg voor het volgen van de juiste procedure."},
+            "Intersubjectieve toetsbaarheid": {"toelichting":"Deze eis houdt onder meer in dat constateringen aantoonbaar op feiten berusten, zodat een ander op basis daarvan tot dezelfde constatering kan komen (‘repliceerbaarheid’) dan wel die constatering kan verwerpen (‘falsificeerbaarheid’). Om die reden vermeldt de deskundige de bronnen waarop zijn conclusies berusten. Daaronder vallen ook eventueel geraadpleegde disciplines, gebruikte literatuur of andere bronnen."},
+            "Relevantie": {"toelichting":"Deze eis houdt onder meer in dat het rapport geen gegevens, onderzoeken of beschouwingen bevat die voor de beantwoording van de vraagstelling niet relevant zijn. De deskundige zorgt dat het rapport voldoende is toegesneden op de individuele casus. Voor het weergeven van onderzoeksgegevens bestaat alleen dan geen bezwaar tegen tekstsjablonen, wanneer hierin wordt weergegeven wat werkelijk onderzocht is."},
+            "Consistentie": {"toelichting":"Vloeien de antwoorden op de vraagstelling logisch voort uit de conclusie?\nVloeit de conclusie logisch voort uit de beschouwing?\nVloeit de beschouwing logisch voort uit de vermelde feiten en constateringen?\nZijn de feiten waaraan wordt gerefereerd traceerbaar?"},
+            "Begrijpelijkheid":{"toelichting":""},
+            "Onderzoeksmethode": {"toelichting": "Deze eis houdt onder meer in dat het veld van de toepasbare onderzoeksmethoden wordt afgebakend tot dat van de actuele reguliere geneeskunde en die van de diverse beroepsverenigingen. De onderzoeksmethoden dienen relevant te zijn ten behoeve van de beantwoording van de vraagstelling.  Dit geldt ook voor eventuele aanvullende onderzoeken."},
+            "Onbevooroordeeldheid":{"toelichting":"Deze eis houdt onder meer in dat de deskundige een onbevooroordeelde a tude hee , dat wil zeggen dat de deskundige subjec viteit en vooringenomenheid vermijdt. De deskundige is zich ervan bewust dat eventuele ui ngen of gedragingen van de betrokkene, bepaalde aspecten van een dossier zelf, maar ook opva ngen van betrokken par jen hem zouden kunnen beïnvloeden. "}
     }},
         "Specifieke eisen": {
             "Opbouw":{
                 "Is de juridische context duidelijk en juist vermeld?":"",
                 "Is de vraagstelling integraal opgenomen?":"",
                 "Is opbouw en indeling overzichtelijk?":"",
+                "Is er gebruik gemaakt van externe bronnen, zo ja, zijn deze bronnen vermeld?":"",
                 "Is het taalgebruik correct en zakelijk?":"",
                 "Zijn spelling en grammatica gecontroleerd?":""},
             "Anamnese":{
@@ -621,21 +622,60 @@ VGO = {
             },
         },
         "Onderzoek": {
-            "Anamnese" : {},
-            "Sociale anamnese" : {},
-            "Tractusanamnese" : {},
+            "Anamnese" : {
+                "Arbeidsongeschiktheid":{"toelichting":"Cliënt had het eigen werk ruim XX jaar gedaan voordat deze zich op XX arbeidsongeschikt meldde voor het eigen werk van XX voor XX uur per week. Cliënt meldde zich arbeidsongeschikt vanwege/omdat XX Cliënt vertelt dat hij met deze klachten het eigen werk niet meer kon uitvoeren omdat XX  De reden om zich specifiek op die bewuste dag arbeidsongeschikt te meldden was omdat toen\nAO nu In het hier en nu geeft cliënt aan niet het eigen werk te kunnen uitvoeren omdat XX (klachten x, y, z) Cliënt kan met deze klachten het eigen werk niet uitvoeren omdat XX (belastbaarheid vs belasting in arbeid) "},
+                "Aandoeningen":{"toelichting":"Na zijn arbeidsongeschiktheidsmelding volgde behandeling in de vorm van XX Effect van deze behandeling was dat XX De klachten zijn sinds de oorspronkelijke ziekmelding wel/niet afgenomen Op de vraag waarom de klachten sinds de ziekmelding niet zijn verminderd, antwoord cliënt dat XX Cliënt in inzake deze klachten wel/niet naar haar huisarts/behandelaar gegaan En toen XX etc. "},
+                "Re-integratie": {"toelichting":"Cliënt spreek de bedrijfsarts gemiddeld eens in de XX  weken en de laatste keer was XX . De relatie met de bedrijfsarts is goed. Cliënt startte met re-integreren rond XX middels een aangepast takenpakket XX Inmiddels werkt cliënt in het hier en nu XX  per dag en XX dagen per week in aanpast werk. De taken die cliënt in dat kader sinds XX uitvoert zijn XX. De taken die voor de ziekmelding werden uitgevoerd maar nu nog niet worden uitgevoerd zijn is XX Om het eigen werk weer in volle omgang uit te kunnen voeren zou het voor cliënt nodig zijn dat XX. Op de vraag of er externe zaken spelen die re-integratie niet mogelijk maken, geeft cliënt aan dat XX Op de vraag welke zaken maken dat (verdere) re-integratie niet mogelijk is, geeft cliënt aan dat XX "},},
+           "Sociale anamnese": {
+                "Thuissituatie en eigen gezin": "",
+                "Contacten met familieleden buiten het gezin": "",
+                "Contacten met vrienden en kennissen": "",
+                "Opleiding en werk": "",
+                "Vrije tijd": "",
+            },
+            "Tractusanamnese" : {
+                "Algemeen":"",
+                "tr. Circulatorius":"",
+                "tr. Respiratorius":"",
+                "tr. Digestivus":"",
+                "tr. Urogenitalis":"",
+                "Zenuwstelsel en sensorium":"",
+                "Endocrien":"",
+                "tr. Locomotorius":"",
+                "Huid":""},
             "Persoonlijk functioneren" : {},
-            "Dagverhaal" : {},
+            "Dagverhaal" : {
+                "Opstaan":"",
+                "Sociaal":"",
+                "Beweging":""},
             "Visie betrokkene" : {},
             "Medische voorgeschiedenis" : {},
             "Medicatie" : {},
             "Behandelingen" : {},
-            "Psychisch onderzoek" : {},
+            "Psychisch onderzoek" : {
+                "Algemene indruk":"",
+                "Bewustzijn":"",
+                "Aandacht":"",
+                "Oriëntatie":"",
+                "Geheugen":"",
+                "Waarneming":"",
+                "Denken":"",
+                "Affect en stemming":""
+                 },
             "Lichamelijk onderzoek" : {}
         },
         "Bespreking":{
             "Diagnose" : {},
-            "Beschouwing" : {},
+            "Beschouwing" : {
+                "Claim ziekmelding en re-integratie":"",
+                "Door betrokkene ervaren belemmeringen":"",
+                "Vastgestelde beperkingen en diagnose":"",
+                "Herstel belemmerende factoren":"",
+                "Belastbaarheid in eigen werk":"",
+                "Re-integratie mogelijkheden":"",
+                "Behandeling":"",
+                "Prognose":"",
+                "Weging van de externe stukken":""},
             "Conclusie": {}
         },
         "Beantwoording vraagstelling": {
@@ -665,7 +705,7 @@ psychiatrie_belastbaarheid = {
                 "Zindelijkheid": "",
                 "Sociale ontwikkeling": "",
                 "Intellectuele ontwikkeling": "",
-            },
+            }},
             "Bespreking": {
                 "Samenvatting": {
                     "toelichting": "In de samenvatting worden alle relevante gegevens uit het voorgaande onderzoek kernachtig samengevat. Het betreft dus geen gedeeltelijke of volledige heraling van deze gegevens. Van belang is dat alleen de feiten uit het voorgaande worden weergegeven. De samenvatting bevat dus geen interpretaties, gevolgtrekkingen of hypotheses (uitgezonderd zijn de bevindingen uit het psychiatrisch onderzoek waarbij per definitie sprake is van interpretatie)."
@@ -700,8 +740,8 @@ psychiatrie_belastbaarheid = {
                 },
             },
         },
-    },
-}
+    }
+
 
 arbeidsrecht_belastbaarheid = {
     "bestandsnaam": "BP_belastbaarheid_arbeidsrecht.docx",
@@ -710,11 +750,11 @@ arbeidsrecht_belastbaarheid = {
     "hoofdstukken": {
         "Algemeen": {
             "Context": contexten["Arbeidsrecht"]["Context"],
-            "Correcties": {"tekst": contexten["Arbeidsrecht"]["Correcties"]},
+            "Correcties": {"gemarkeerde_tekst": contexten["Arbeidsrecht"]["Correcties"]},
             "Inzage- en blokkering": {
-                "tekst": contexten["Arbeidsrecht"]["Inzage- en blokkering"]
+                "gemarkeerde_tekst": contexten["Arbeidsrecht"]["Inzage- en blokkering"]
             },
-            "Commentaar": {"tekst": contexten["Arbeidsrecht"]["Commentaar"]},
+            "Commentaar": {"gemarkeerde_tekst": contexten["Arbeidsrecht"]["Commentaar"]},
             "Vraagstelling": {
                 "toelichting": "Controleer altijd of de vraagstelling juist is en of er nog aanvullende of afwijkende vragen zijn, vul aan/pas aan/verwijder waar nodig",
                 "vragen": vraagstelling_standaard,
@@ -736,11 +776,11 @@ bestuurssrecht_belastbaarheid = {
     "hoofdstukken": {
         "Algemeen": {
             "Context": contexten["Bestuursrecht"]["Context"],
-            "Correcties": {"tekst": contexten["Bestuursrecht"]["Correcties"]},
+            "Correcties": {"gemarkeerde_tekst": contexten["Bestuursrecht"]["Correcties"]},
             "Inzage- en blokkering": {
-                "tekst": contexten["Bestuursrecht"]["Inzage- en blokkering"]
+                "gemarkeerde_tekst": contexten["Bestuursrecht"]["Inzage- en blokkering"]
             },
-            "Commentaar": {"tekst": contexten["Bestuursrecht"]["Commentaar"]},
+            "Commentaar": {"gemarkeerde_tekst": contexten["Bestuursrecht"]["Commentaar"]},
             "Vraagstelling": {
                 "toelichting": "Controleer altijd of de vraagstelling juist is en of er nog aanvullende of afwijkende vragen zijn, vul aan/pas aan/verwijder waar nodig"
             },
@@ -829,11 +869,11 @@ AOV_belastbaarheid = {
     "hoofdstukken": {
         "Algemeen": {
             "Context": contexten["AOV"]["Context"],
-            "Correcties": {"tekst": contexten["AOV"]["Correcties"]},
+            "Correcties": {"gemarkeerde_tekst": contexten["AOV"]["Correcties"]},
             "Inzage- en blokkering": {
-                "tekst": contexten["AOV"]["Inzage- en blokkering"]
+                "gemarkeerde_tekst": contexten["AOV"]["Inzage- en blokkering"]
             },
-            "Commentaar": {"tekst": contexten["AOV"]["Commentaar"]},
+            "Commentaar": {"gemarkeerde_tekst": contexten["AOV"]["Commentaar"]},
             "Vraagstelling": {
                 "toelichting": "Controleer altijd of de vraagstelling juist is en of er nog aanvullende of afwijkende vragen zijn, vul aan/pas aan/verwijder waar nodig"
             },
@@ -852,12 +892,12 @@ IGJ_belastbaarheid = {
     "titel": "Psychiatrische rapportage IGJ",
     "hoofdstukken": {
         "Algemeen": {
-            "Context": {"tekst": contexten["IGJ"]["Context"]},
-            "Correcties": {"tekst": contexten["IGJ"]["Correcties"]},
+            "Context": {"gemarkeerde_tekst": contexten["IGJ"]["Context"]},
+            "Correcties": {"gemarkeerde_tekst": contexten["IGJ"]["Correcties"]},
             "Inzage- en blokkering": {
-                "tekst": contexten["IGJ"]["Inzage- en blokkering"]
+                "gemarkeerde_tekst": contexten["IGJ"]["Inzage- en blokkering"]
             },
-            "Commentaar": {"tekst": contexten["IGJ"]["Commentaar"]},
+            "Commentaar": {"gemarkeerde_tekst": contexten["IGJ"]["Commentaar"]},
         },
         "Beantwoording vraagstelling": {
             "Vraagstelling": {
@@ -874,11 +914,11 @@ psychiatrie_interventieadvies = {
     "hoofdstukken": {
         "Algemeen": {
             "Context": contexten["IA"]["Context"],
-            "Correcties": {"tekst": contexten["IA"]["Correcties"]},
+            "Correcties": {"gemarkeerde_tekst": contexten["IA"]["Correcties"]},
             "Inzage- en blokkering": {
-                "tekst": contexten["IA"]["Inzage- en blokkering"]
+                "gemarkeerde_tekst": contexten["IA"]["Inzage- en blokkering"]
             },
-            "Commentaar": {"tekst": contexten["IA"]["Commentaar"]},
+            "Commentaar": {"gemarkeerde_tekst": contexten["IA"]["Commentaar"]},
             "Vraagstelling": {"verbergen": "ja"},
         },
         "Onderzoek": {
