@@ -31,11 +31,12 @@ vraagstelling_VGO = [
 ]
 
 conclusie_VGO_niet_medisch = {
-    "Zijn er benutbare mogelijkheden?": {},
-    "Wat is de huidige belastbaarheid? Kan er een FML worden opgesteld?": {},
-    "Zijn er persoonlijke of externe factoren die van invloed zijn op het herstel of de re-integratie?": {},
-    "Zijn er medische behandelmogelijkheden?": {},
-    "Is er een vervolgactie, interventie en/of behandeling geadviseerd voor een sluitende aanpak van herstel en re-integratie?": {},
+    "Zijn er benutbare mogelijkheden?":{},
+    "Wat is de huidige belastbaarheid? Kan er een FML worden opgesteld?":{},
+    "Zijn er persoonlijke of externe factoren die van invloed zijn op het herstel of de re-integratie?":{},
+    "Zijn er medische behandelmogelijkheden?":{},
+    "Is er een vervolgactie, interventie en/of behandeling geadviseerd voor een sluitende aanpak van herstel en re-integratie?":{},
+    
 }
 
 correcties_algemeen = "Betrokkene wordt in de gelegenheid gesteld om feitelijke onjuistheden te corrigeren.\nHet concept rapport werd daartoe op [DATUM] aan betrokkene toegestuurd met het verzoek vóór [DATUM_2] te reageren.\nDe termijn werd op verzoek van betrokkene éénmalig verlengd tot [DATUM_3]\nBetrokkene reageerde niet voor het verlopen van de de termijn, ik ben er daarom van uit gegaan dat er geen feitelijke onjuistheden waren.\nBetrokkene reageerde voor het verlopen van de termijn. Ik heb de reactie bekeken en waar aangewezen correcties uitgevoerd."
@@ -396,7 +397,7 @@ leken_rapport = {
     "voorblad": "yes",
     "titel": "Medische belastbaarheid",
     "subtitel": "Niet-medische rapportage",
-    "hoofdstukken": {
+    "hoofdstukken":{
         "Niet-medische rapportage": {
             "Verloop van het onderzoek": {
                 "tekst": """Ik heb betrokkene onderzocht op:\a[DATUM] te [PLAATS] gedurende ... minuten. Het onderzoek vond face-to-face / online] plaats\a[DATUM] te [PLAATS] gedurende ... minuten. Het onderzoek vond face-to-face / online] plaats\a[DATUM] te [PLAATS] gedurende ... minuten. Het onderzoek vond face-to-face / online] plaats\aVoorafgaand aan het onderzoek heb ik betrokkene ingelicht over mijn onafhankelijke rol. In het bijzonder heb ik toegelicht dat er geen behandelrelatie tot stand komt. Tevens heb ik betrokkene ingelicht over de gang van zaken rondom het correctierecht, het inzage- en blokkeringsrecht en de commentaarfase. """
@@ -404,194 +405,83 @@ leken_rapport = {
             "Onderzoeken PrioCura": {
                 "toelichting": "Alleen indien van toepassing kan hier worden opgesomd welk aanvullend onderzoek er binnen PrioCura heeft plaatsgevonden, bijvoorbeeld als er een neuropsychologisch onderzoek of een psychiatrisch/klinisch psychologisch onderzoek (bij een beoordeling van de medische belastbaarheid) heeft plaatsgevonden."
             },
-            "Conclusie": conclusie_VGO_niet_medisch,
+            "Conclusie":conclusie_VGO_niet_medisch
         }
-    },
+    } 
 }
 
 checklist = {
-    "bestandsnaam": "checklist_en_feedback.docx",
+    "bestandsnaam" : "checklist_en_feedback.docx",
     "voorblad": "yes",
-    "titel": "Zelfcheck en feedback",
-    "checklists": True,
+    "titel" : "Zelfcheck en feedback",
+    "checklists" : True,
     "subtitel": "ALLEEN VOOR INTERN GEBRUIK",
     "hoofdstukken": {
         "Algemene eisen": {
-            "Algemeen": {
-                "toelichting": "Voldoet het rapport aan de eisen zoals verwoord in de richtlijn van de NVMSR van 2024?",
-                "Deskundigheid": {
-                    "toelichting": "Deze eis houdt onder meer in dat de deskundige zijn uitspraken doet op grond van zijn kennis van de actuele, dan wel ten jde van het incident vigerende professionele standaard en de stand van de medische wetenschap en op grond van de op zijn vakgebied algemeen aanvaarde inzichten en opva ngen die relevant zijn in de context van de te beantwoorden vraagstelling. Eveneens houdt deze eis in dat de deskundige geen uitspraken doet die buiten zijn vakgebied of anderszins buiten zijn competenie vallen. "
-                },
-                "Zorgvuldigheid": {
-                    "toelichting": "Deze eis houdt onder meer in dat de nodige zorg wordt besteed aan een overzichtelijke opbouw en indeling van het rapport. Het rapport ziet er professioneel uit. De deskundige drukt zich zorgvuldig in woord en geschri uit zoals dat gebruikelijk is binnen zijn vakgebied. Er wordt zorg besteed aan correct, zakelijk en begrijpelijk taalgebruik. De deskundige vermijdt onnodig grievend danwel niet objec ef taalgebruik.  Onnodig medisch jargon en ingewikkeld taalgebruik moeten zoveel (of waar mogelijk) mogelijk worden vermeden. Dat geldt in het bijzonder bij het formuleren van overwegingen en conclusies en bij het beantwoorden van de vragen die ook voor derden begrijpelijk dienen te zijn. De deskundige waakt voor het doen van al te stellige uitspraken als daar geen of onvoldoende basis voor is. De deskundige draagt steeds zorg voor het volgen van de juiste procedure."
-                },
-                "Intersubjectieve toetsbaarheid": {
-                    "toelichting": "Deze eis houdt onder meer in dat constateringen aantoonbaar op feiten berusten, zodat een ander op basis daarvan tot dezelfde constatering kan komen (‘repliceerbaarheid’) dan wel die constatering kan verwerpen (‘falsificeerbaarheid’). Om die reden vermeldt de deskundige de bronnen waarop zijn conclusies berusten. Daaronder vallen ook eventueel geraadpleegde disciplines, gebruikte literatuur of andere bronnen."
-                },
-                "Relevantie": {
-                    "toelichting": "Deze eis houdt onder meer in dat het rapport geen gegevens, onderzoeken of beschouwingen bevat die voor de beantwoording van de vraagstelling niet relevant zijn. De deskundige zorgt dat het rapport voldoende is toegesneden op de individuele casus. Voor het weergeven van onderzoeksgegevens bestaat alleen dan geen bezwaar tegen tekstsjablonen, wanneer hierin wordt weergegeven wat werkelijk onderzocht is."
-                },
-                "Consistentie": {
-                    "toelichting": "Vloeien de antwoorden op de vraagstelling logisch voort uit de conclusie?\nVloeit de conclusie logisch voort uit de beschouwing?\nVloeit de beschouwing logisch voort uit de vermelde feiten en constateringen?\nZijn de feiten waaraan wordt gerefereerd traceerbaar?"
-                },
-                "Begrijpelijkheid": {"toelichting": ""},
-                "Onderzoeksmethode": {
-                    "toelichting": "Deze eis houdt onder meer in dat het veld van de toepasbare onderzoeksmethoden wordt afgebakend tot dat van de actuele reguliere geneeskunde en die van de diverse beroepsverenigingen. De onderzoeksmethoden dienen relevant te zijn ten behoeve van de beantwoording van de vraagstelling.  Dit geldt ook voor eventuele aanvullende onderzoeken."
-                },
-                "Onbevooroordeeldheid": {
-                    "toelichting": "Deze eis houdt onder meer in dat de deskundige een onbevooroordeelde a tude hee , dat wil zeggen dat de deskundige subjec viteit en vooringenomenheid vermijdt. De deskundige is zich ervan bewust dat eventuele ui ngen of gedragingen van de betrokkene, bepaalde aspecten van een dossier zelf, maar ook opva ngen van betrokken par jen hem zouden kunnen beïnvloeden. "
-                },
-            }
-        },
+            "Algemeen":{
+            "toelichting":"Voldoet het rapport aan de eisen zoals verwoord in de richtlijn van de NVMSR van 2024?",
+            "Deskundigheid":{"toelichting":"Deze eis houdt onder meer in dat de deskundige zijn uitspraken doet op grond van zijn kennis van de actuele, dan wel ten jde van het incident vigerende professionele standaard en de stand van de medische wetenschap en op grond van de op zijn vakgebied algemeen aanvaarde inzichten en opva ngen die relevant zijn in de context van de te beantwoorden vraagstelling. Eveneens houdt deze eis in dat de deskundige geen uitspraken doet die buiten zijn vakgebied of anderszins buiten zijn competenie vallen. "},
+            "Zorgvuldigheid": {"toelichting":"Deze eis houdt onder meer in dat de nodige zorg wordt besteed aan een overzichtelijke opbouw en indeling van het rapport. Het rapport ziet er professioneel uit. De deskundige drukt zich zorgvuldig in woord en geschri uit zoals dat gebruikelijk is binnen zijn vakgebied. Er wordt zorg besteed aan correct, zakelijk en begrijpelijk taalgebruik. De deskundige vermijdt onnodig grievend danwel niet objec ef taalgebruik.  Onnodig medisch jargon en ingewikkeld taalgebruik moeten zoveel (of waar mogelijk) mogelijk worden vermeden. Dat geldt in het bijzonder bij het formuleren van overwegingen en conclusies en bij het beantwoorden van de vragen die ook voor derden begrijpelijk dienen te zijn. De deskundige waakt voor het doen van al te stellige uitspraken als daar geen of onvoldoende basis voor is. De deskundige draagt steeds zorg voor het volgen van de juiste procedure."},
+            "Intersubjectieve toetsbaarheid": {"toelichting":"Deze eis houdt onder meer in dat constateringen aantoonbaar op feiten berusten, zodat een ander op basis daarvan tot dezelfde constatering kan komen (‘repliceerbaarheid’) dan wel die constatering kan verwerpen (‘falsificeerbaarheid’). Om die reden vermeldt de deskundige de bronnen waarop zijn conclusies berusten. Daaronder vallen ook eventueel geraadpleegde disciplines, gebruikte literatuur of andere bronnen."},
+            "Relevantie": {"toelichting":"Deze eis houdt onder meer in dat het rapport geen gegevens, onderzoeken of beschouwingen bevat die voor de beantwoording van de vraagstelling niet relevant zijn. De deskundige zorgt dat het rapport voldoende is toegesneden op de individuele casus. Voor het weergeven van onderzoeksgegevens bestaat alleen dan geen bezwaar tegen tekstsjablonen, wanneer hierin wordt weergegeven wat werkelijk onderzocht is."},
+            "Consistentie": {"toelichting":"Vloeien de antwoorden op de vraagstelling logisch voort uit de conclusie?\nVloeit de conclusie logisch voort uit de beschouwing?\nVloeit de beschouwing logisch voort uit de vermelde feiten en constateringen?\nZijn de feiten waaraan wordt gerefereerd traceerbaar?"},
+            "Begrijpelijkheid":{"toelichting":""},
+            "Onderzoeksmethode": {"toelichting": "Deze eis houdt onder meer in dat het veld van de toepasbare onderzoeksmethoden wordt afgebakend tot dat van de actuele reguliere geneeskunde en die van de diverse beroepsverenigingen. De onderzoeksmethoden dienen relevant te zijn ten behoeve van de beantwoording van de vraagstelling.  Dit geldt ook voor eventuele aanvullende onderzoeken."},
+            "Onbevooroordeeldheid":{"toelichting":"Deze eis houdt onder meer in dat de deskundige een onbevooroordeelde a tude hee , dat wil zeggen dat de deskundige subjec viteit en vooringenomenheid vermijdt. De deskundige is zich ervan bewust dat eventuele ui ngen of gedragingen van de betrokkene, bepaalde aspecten van een dossier zelf, maar ook opva ngen van betrokken par jen hem zouden kunnen beïnvloeden. "}
+    }},
         "Specifieke eisen": {
-            "Opbouw": {
-                "Is de juridische context duidelijk en juist vermeld?": "",
-                "Is de vraagstelling integraal opgenomen?": "",
-                "Is opbouw en indeling overzichtelijk?": "",
-                "Is er gebruik gemaakt van externe bronnen, zo ja, zijn deze bronnen vermeld?": "",
-                "Is het taalgebruik correct en zakelijk?": "",
-                "Zijn spelling en grammatica gecontroleerd?": "",
-            },
-            "Anamnese": {
-                "Voldoet de klachtenanamnese?": {
-                    "toelichting": "Is het mogelijk om op basis van de anamnese:\a-differentiaal-diagnostische overwegingen te formuleren?\n- beperkingen te kunnen formuleren die er volgens betrokkene zijnten aanzien van arbeid en functioneren in privésituaties?\n- het beloop te kunnen bepalen, in relatie met een datum-in-geding?\n- de relatie te kunnen beoordelen tot eventuele oorzakelijke factoren zoals ongeval of ziekte?\n- vast te stellen of sprake is van preëxistente ziekte of kwetsbaarheid?"
-                },
-                "Is de anamnese vrij van interpretaties van de onderzoeker of gegevens uit externe bronnen?": {
-                    "toelichting": "Geef de anamnese feitelijk en zoveel mogelijk in de woorden van betrokkene weer. Vermijd interpretaties zoals het al komen tot een conclusie 'betrokkene is depressief', beter is het om dan te zeggen ''betrokkene zegt 'depressief' te zijn''. Vermijd ook waarderingen of normeringen zoals 'betrokkene zou depressief zijn'."
-                },
-                "Is bij niet Nederlandstaligen gebruik gemaakt van een onafhankelijke tolk?": "",
-            },
-            "Onderzoek": {
-                "Is gebruik gemaakt van onderzoekstechnieken die binnen het specialisme algemeen aanvaard zijn?": {
-                    "toelichting": "Is met name bij het vaststellen van persoonlijkheidsproblematiek, ontwikkelingsproblematiek en cognitieve stoornissgen de betreffende NVVP richtlijn gevolgd wat betreft de diagnostiek?"
-                },
-                "Zijn voldoende relevante onderzoeksbevindingen genoteerd?": "",
-            },
-            "Externe stukken": {
+            "Opbouw":{
+                "Is de juridische context duidelijk en juist vermeld?":"",
+                "Is de vraagstelling integraal opgenomen?":"",
+                "Is opbouw en indeling overzichtelijk?":"",
+                "Is er gebruik gemaakt van externe bronnen, zo ja, zijn deze bronnen vermeld?":"",
+                "Is het taalgebruik correct en zakelijk?":"",
+                "Zijn spelling en grammatica gecontroleerd?":""},
+            "Anamnese":{
+                "Voldoet de klachtenanamnese?":{"toelichting":"Is het mogelijk om op basis van de anamnese:\a-differentiaal-diagnostische overwegingen te formuleren?\n- beperkingen te kunnen formuleren die er volgens betrokkene zijnten aanzien van arbeid en functioneren in privésituaties?\n- het beloop te kunnen bepalen, in relatie met een datum-in-geding?\n- de relatie te kunnen beoordelen tot eventuele oorzakelijke factoren zoals ongeval of ziekte?\n- vast te stellen of sprake is van preëxistente ziekte of kwetsbaarheid?"},
+                "Is de anamnese vrij van interpretaties van de onderzoeker of gegevens uit externe bronnen?":{"toelichting":"Geef de anamnese feitelijk en zoveel mogelijk in de woorden van betrokkene weer. Vermijd interpretaties zoals het al komen tot een conclusie 'betrokkene is depressief', beter is het om dan te zeggen ''betrokkene zegt 'depressief' te zijn''. Vermijd ook waarderingen of normeringen zoals 'betrokkene zou depressief zijn'." },
+                "Is bij niet Nederlandstaligen gebruik gemaakt van een onafhankelijke tolk?":""},
+            "Onderzoek":{
+                "Is gebruik gemaakt van onderzoekstechnieken die binnen het specialisme algemeen aanvaard zijn?":{"toelichting":"Is met name bij het vaststellen van persoonlijkheidsproblematiek, ontwikkelingsproblematiek en cognitieve stoornissgen de betreffende NVVP richtlijn gevolgd wat betreft de diagnostiek?"},
+                "Zijn voldoende relevante onderzoeksbevindingen genoteerd?":""},
+            "Externe stukken":{
                 "Is duidelijk welke externe stukken zijn aangeleverd?": "",
-                "Is duidelijk wat de relevante informatie is uit de aangeleverde stukken?": "",
-                "Is duidelijke welke aanvullende informatie is opgevraagd?": "",
-                "Is duidelijk wat de relevante informatie is uit de aanvullende stukken?": "",
-            },
-            "Samenvatting": {
+                "Is duidelijk wat de relevante informatie is uit de aangeleverde stukken?":"",
+                "Is duidelijke welke aanvullende informatie is opgevraagd?":"",
+                "Is duidelijk wat de relevante informatie is uit de aanvullende stukken?": ""},
+            "Samenvatting":{
                 "Is er een samenvatting in het rapport opgenomen?": "",
                 "Zo ja, is deze kort en bondig maar wel met alle relevante gegevens?": "",
-                "Zo ja, is deze feitelijk en vrij van interpretaties, hypotheses en conclusies?": "",
-            },
-            "Beschouwing": {
-                "tekst": "Bevat de beschouwing de volgende onderdelen?",
-                "Weging van de externe gegevens?": {
-                    "toelichting": "Dit is tweeledig, enerzijds moet duidelijk zijn dat er kennis genomen van de externe gegevens en dat deze zijn betrokken in het onderzoek, anderzijds moet er een verklaring worden gegeven voor eventuele verschillen in conclusies van de rapporteur en die van behandelaars en/of andere onderzoekers/rapporteurs."
+                "Zo ja, is deze feitelijk en vrij van interpretaties, hypotheses en conclusies?":"",
                 },
-                "Een adequate onderbouwing van de gestelde diagnoses?": "",
-                "Een differentiaal diagnostische overweging met betrekking tot op de voorgrond staande klachten?": "",
-                "Een differentiaal diagnostische overweging van diagnoses die naar voren komen in de externe stukken (aangeleverd of opgevraagd?)": "",
-                "Een differentiaal diagnostische overweging van diagnoses waarnaar specifiek wordt gevraagd in de vraagstelling?": "",
-                "Een uiteenzetting waarom wel/geen medisch oorzakelijk verband tussen ongeval of ziekte in beding en afwijkingen en ervaren beperkingen gevonden kan worden": "",
-                "Is bij de vaststelling van de beperking van betrokkene uitsluitend gebruik gemaakt van het professionele inzicht van de rapporteur en niet van de subjectieve weergave van betrokkene?": {
-                    "toelichting": "Oftewel is er sprake van objectivering van beperkingen. Voor de psychiaters/klinisch psychologen geldt dat een beperking pas objectief is als deze direct geobserveerd (de observatie moet dan tenminste blijken uit het klachtenbeeld en het psychiatrisch onderzoek en/of een valide prestatietaak zoals een neuropsychologisch onderzoek) is én op aannemelijke wijze past bij het vastgestelde ziektebeeld of als deze niet direct geobserveerd is maar wel heel consistent naar voren komt uit MEERDERE bronnen én deze op aannemelijke wijze pas bij het vastgestelde ziektebeeld. Er moet dan wel duidelijk gemaakt worden waarom de vastgestelde beperking niet direct geobserveerd kon worden. Gezien de belangen die afhangen van de conclusie op dit punt is het beter om bij twijfel niet te speculeren maar hetgeen waarover getwijfeld wordt weer te geven. De zogenoemde 'gun-factor' is in het geheel niet relevant en dient volledig buiten beschouwing gelaten te worden alsmede gedachten over 'wat goed is voor betrokkene' (of de tegenpartij natuurlijk)"
-                },
-                "Is er in de beschouwing uitsluitend gebruik gemaakt van de relevante gegevens uit de samenvatting (indien er een samenvatting is geschreven?)": "",
+            "Beschouwing":{
+                "tekst":"Bevat de beschouwing de volgende onderdelen?",
+                "Weging van de externe gegevens?": {"toelichting":"Dit is tweeledig, enerzijds moet duidelijk zijn dat er kennis genomen van de externe gegevens en dat deze zijn betrokken in het onderzoek, anderzijds moet er een verklaring worden gegeven voor eventuele verschillen in conclusies van de rapporteur en die van behandelaars en/of andere onderzoekers/rapporteurs."},
+                "Een adequate onderbouwing van de gestelde diagnoses?":"",
+                "Een differentiaal diagnostische overweging met betrekking tot op de voorgrond staande klachten?":"",
+                "Een differentiaal diagnostische overweging van diagnoses die naar voren komen in de externe stukken (aangeleverd of opgevraagd?)":"",
+                "Een differentiaal diagnostische overweging van diagnoses waarnaar specifiek wordt gevraagd in de vraagstelling?":"",
+                
+                "Een uiteenzetting waarom wel/geen medisch oorzakelijk verband tussen ongeval of ziekte in beding en afwijkingen en ervaren beperkingen gevonden kan worden":"",
+                "Is bij de vaststelling van de beperking van betrokkene uitsluitend gebruik gemaakt van het professionele inzicht van de rapporteur en niet van de subjectieve weergave van betrokkene?":{"toelichting":"Oftewel is er sprake van objectivering van beperkingen. Voor de psychiaters/klinisch psychologen geldt dat een beperking pas objectief is als deze direct geobserveerd (de observatie moet dan tenminste blijken uit het klachtenbeeld en het psychiatrisch onderzoek en/of een valide prestatietaak zoals een neuropsychologisch onderzoek) is én op aannemelijke wijze past bij het vastgestelde ziektebeeld of als deze niet direct geobserveerd is maar wel heel consistent naar voren komt uit MEERDERE bronnen én deze op aannemelijke wijze pas bij het vastgestelde ziektebeeld. Er moet dan wel duidelijk gemaakt worden waarom de vastgestelde beperking niet direct geobserveerd kon worden. Gezien de belangen die afhangen van de conclusie op dit punt is het beter om bij twijfel niet te speculeren maar hetgeen waarover getwijfeld wordt weer te geven. De zogenoemde 'gun-factor' is in het geheel niet relevant en dient volledig buiten beschouwing gelaten te worden alsmede gedachten over 'wat goed is voor betrokkene' (of de tegenpartij natuurlijk)"},
+                "Is er in de beschouwing uitsluitend gebruik gemaakt van de relevante gegevens uit de samenvatting (indien er een samenvatting is geschreven?)":"",
                 "Worden er in de beschouwing uitsluitend zaken besproken waar ook naar wordt gevraagd?": "",
-                "Zo niet, dus als er toch zaken besproken worden waar niet rechtstreeks naar gevraagd wordt, is dan de relevantie daarvan uiteengezet?": {
-                    "toelichting": "Dit kan bijvoorbeeld van belang zijn wanneer er niet naar behandelmogelijkheden gevraagd wordt maar wél naar een prognostische overweging. Het is dan noodzakelijk en dus relevant om wel de behandelmogelijkheden te bespreken."
+                "Zo niet, dus als er toch zaken besproken worden waar niet rechtstreeks naar gevraagd wordt, is dan de relevantie daarvan uiteengezet?":{"toelichting": "Dit kan bijvoorbeeld van belang zijn wanneer er niet naar behandelmogelijkheden gevraagd wordt maar wél naar een prognostische overweging. Het is dan noodzakelijk en dus relevant om wel de behandelmogelijkheden te bespreken."}               
                 },
-            },
-            "Conclusie": {
-                "Zijn de conclusies rechtstreeks af te leiden uit de beschouwing?": "",
-                "Bevat de conclusie nieuwe informatie die niet terug te vinden is in de beschouwing?": "",
-            },
-            "Beantwoording van de vragen": {
-                "Is de beantwoording van de vraagstelling rechtstreeks af te leiden uit de conclusie?": {
-                    "toelichting": "(eventueel mag de beantwoording een kleine uitweiding of nuancering bevatten die wellicht niet in de conclusie staat, let wel, het gaat dan om een kleine aanvulling en die moet natuurlijk wel terug te vinden zijn in de beschouwing)"
+            "Conclusie":{
+                "Zijn de conclusies rechtstreeks af te leiden uit de beschouwing?":"",
+                "Bevat de conclusie nieuwe informatie die niet terug te vinden is in de beschouwing?":"",
                 },
-                "Bevat de beantwoording van de vraagstelling nieuwe informatie die niet terug te vinden is in de conclusie?": "",
-            },
-            "Procedure": {
-                "Is de procedure passend bij de juridische context doorlopen?": "",
-                "Blijkt uit het rapport of en hoe betrokkene heeft gereageerd en hoe de rapporteur daarmee is omgegaan?": "",
-                "Blijkt uit het rapport hoe er is omgegaan met commentaar van beide partijen?": "",
-            },
-        },
-    },
-}
-
-zelfcheck = {
-        "bestandsnaam": "zelfcheck.docx",
-        "voorblad": "yes",
-        "titel": "Zelfcheck en feedback",
-        "checklists": True,
-        "subtitel": "ALLEEN VOOR INTERN GEBRUIK",
-        "hoofdstukken": {
-            "Eisen aan de rapportage": {
-                "Algemeen": {
-                    "checklist_items": [
-                        "Uitspraken zijn gedaan op basis van de actuele professionele standaard en op grond van binnen het eigen vakgebied aanvaarde inzichten en opvattingen",
-                        "Er zijn geen uitspraken gedaan buiten het eigen vakgebied of buiten de eigen competentie",
-                        "Er is zorg besteed aan ene overzichtelijke opbouw en indeling van het rapport",
-                        "Het taalgebruik is correct, zakelijk en begrijpelijk",
-                        "Spelling en grammatica zijn gecontroleerd",
-                        "Uitspraken zijn gedaan op basis van een juiste onderzoeksmethode en voldoende onderbouwing (bijvoorbeeld: bij een (de novo) diagnose van een persoonlijkheidsstoornis is er gebruik gemaakt van meerdere bronnen van informatie)",
-                        "Constateringen berusten aantoonbaar op feiten, met vermelding van de bronnen",
-                        "Het rapport geeft blijk van een onbevooroordeelde attitude",
-                        "De context van het onderzoek en de te volgen procedures zijn gecontroleerd",
-                    ]
-                },
-                "Procedure": {
-                    "checklist_items": [
-                        "De procedure is passend bij de juridische context doorlopen",
-                    ]
-                },
-                "Vraagstelling": {
-                    "checklist_items": [
-                        "De vraagstelling is voor aanvang van het onderzoek gecontroleerd",
-                        "De juiste onderzoeksmethode is gekozen om de vraagstelling te beantwoorden",
-                        "Het rapport bevat geen gegevens, onderzoeken of beschouwingen die voor de beantwoording van de vraagstelling niet relevant zijn",
-                    ]
-                },
-                "Onderzoek": {
-                    "checklist_items": [
-                        "Het rapport maakt een duidelijk onderscheid tussen onderzoeksbevindingen, observaties, meetresultaten, informatie uit andere bronnen, interpretaties, hypotheses en conclusies",
-                        "De anamnese bevat geen interpretaties of conclusies van onderzoeker"
-                        "De anamnese bevat zoveel mogelijk feitelijk weergegeven in de eigen woorden van betrokkene",
-                        "De anamnese geeft er blijk van dat betrokkene de mogelijkheid heeft gehad om beperkingen in het functioneren in zijn/haar eigen woorden toe te lichten",
-                        "Het psychiatrisch/klinisch psychologisch onderzoek is zorgvuldig en volledig omschreven en bevat zoveel mogelijk observaties waardoor interpretaties te volgen zijn",
-                    ]
-                },
-                "Samenvatting": {
-                    "checklist_items": [
-                        "De samenvatting bevat alleen een opsomming van relevante onderzoeksbevindingen en geen interpretaties, hypotheses of conclusies",
-                        "De samenvatting bevat geen informatie die niet terug te vinden is in het onderzoeksdeel",
-                    ]
-                },
-                "Beschouwing": {
-                    "checklist_items": [
-                        "De beschouwing bevat een bespreking van alle zaken die relevant zijn om tot een beantwoording van de vraagstelling te komen",
-                        "Zaken waarnaar niet gevraagd is, worden niet besproken, tenzij de relevantie daarvan is uiteengezet (bijvoorbeeld: indien er niet gevraagd wordt naar behandelmogelijkheden, wordt dit ook niet besproken, tenzij dit relevant is voor een prognostische overweging - en er dus ook gevraagd is naar de prognose)",
-                        "De beschouwing bevat geen nieuwe informatie die -in de basis- niet terug te vinden is in de samenvatting",
-                        "De beschouwing is op zakelijke en duidelijke wijze geschreven",
-                        "De beschouwing bevat geen niet-relevante kwalificaties of waardeoordelen over betrokkene, zijn/haar gedrag of zijn/haar situatie.",
-                        "De paragraaf over de betrouwbaarheid van het onderzoek is op feitelijke wijze beschreven. Kwalificaties over de achtergrond van eventuele inconsistenties of onbetrouwbaarheden worden achterwege gelaten",
-                        "De beschrijvende diagnose geeft blijk van een duidelijk onderscheid tussen de subjectieve vermeldingen en de objectieve bevindingen",
-                        "Differentiaal diagnostisch is besproken datgene waartoe duidelijk aanleiding bestaat vanuit het eigen onderzoek",
-                        "Differentiaal diagnostisch is besproken datgene wat naar voren komt in de externe stukken (aangeleverd of opgevraagd), ook (of juist) als dit afwijkt van de bevindingen uit het eigen onderzoek",
-                        "Differentiaal diagnostisch is besprokene datgene waartoe afgenomen vragenlijsten of testen aanleiding toe geven",
-                        "Als psychiater worden en geen concrete uitspraken over FML items gedaan zonder expliciete toelichting dat de items vanuit het eigen vakgebied zijn gedaan",
-                        "Beperkingen in het functioneren worden door psychiater/klinisch psycholoog uitsluitend besproken wat betreft het psychische functioneren. Uitspraken over concrete werkzaamheden, handelingen, werktijden en uitvoering van eigen werk zijn niet gedaan",
-                    ]
-                },
-                "Conclusie": {
-                    "checklist_items": [
-                        "De conclusie is rechtstreeks af te leiden uit de beschouwing",
-                        "De conclusie bevat geen nieuwe informatie die niet terug te vinden is in de beschouwing",
-                        "De beantwoording van de vraagstelling is rechtstreeks af te leiden uit de conclusie",
-                    ]
-                },
-            },
-        },
+            "Beantwoording van de vragen":{
+                "Is de beantwoording van de vraagstelling rechtstreeks af te leiden uit de conclusie?": {"toelichting": "(eventueel mag de beantwoording een kleine uitweiding of nuancering bevatten die wellicht niet in de conclusie staat, let wel, het gaat dan om een kleine aanvulling en die moet natuurlijk wel terug te vinden zijn in de beschouwing)"},
+                "Bevat de beantwoording van de vraagstelling nieuwe informatie die niet terug te vinden is in de conclusie?":""},        
+        "Procedure": {
+            "Is de procedure passend bij de juridische context doorlopen?":"",
+            "Blijkt uit het rapport of en hoe betrokkene heeft gereageerd en hoe de rapporteur daarmee is omgegaan?":"",
+            "Blijkt uit het rapport hoe er is omgegaan met commentaar van beide partijen?":""},
     }
-
-
+}
+}
 
 basis_rapport = {
     "bestandsnaam": "basis_rapport.docx",
@@ -602,47 +492,30 @@ basis_rapport = {
     "hoofdstukken": {
         "Algemeen": {
             "Context": {},
-            "Voorafgaand": {
-                "checklist_items": [
-                    "Voorafgaand aan het onderzoek heb ik vastgesteld dat ik betrokkene niet eerder heb behandeld, noch anderszins bij de behandeling betrokken ben geweest. Ook heb ik vastgesteld dat ik geen andere strijdige belangen heb die interfereren met een onafhankelijke beoordeling.",
-                    "Ik heb vastgesteld dat betrokkene in staat is om een beslissing te nemen over deelname aan het onderzoek en de gevolgen daarvan (informed consent).",
-                    "Ik heb betrokkene ingelicht over mijn onafhankelijke rol. In het bijzonder heb ik toegelicht dat er geen behandelrelatie tot stand komt.",
-                    "Ik heb betrokkene ingelicht dat ik een schriftelijk rapport zal opstellen en dat dit rapport aan de opdrachtgever wordt verstrekt.",
-                    "Tevens heb ik betrokkene ingelicht over de gang van zaken rondom het correctierecht, het inzage- en blokkeringsrecht en de commentaarfase.",
-                    "Aan betrokkene is gevraagd of er aanvullende informatie die hij/zij relevant acht zodat deze opgevraagd of aangeleverd kan worden",
-                    "Ik heb betrokkene gevraagd zich te identificeren middels een geldig document:\nDocumenttype: paspoort/identiteitsbewijs/rijbewijs/\nBSN:",
-                ]
+            "Deskundige": {
+                "toelichting": "De deskundige is niet de behandelend arts van de betrokkene of bij diens behandeling betrokken. Het kan zijn dat blijkt dat de deskundige de betrokkene in het verleden heeW behandeld. Als deze behandeling al eerder werd afgesloten en er geen relaIe bestaat tot de voorliggende casus dient de deskundige zowel met de betrokkene als met de opdrachtgever(s) in overleg te treden of dit de rapportage in de weg zou staan. Pas als alle betrokkenen, dus ook de deskundige zelf, verklaren hierin geen bezwaar te zien, kan de deskundige het onderzoek verrichten. Echter, hierbij geldt het advies om bij twijfel de opdracht niet te aanvaarden en van rapportage af te zien. De deskundige aanvaardt ook geen opdracht als hij tevoren in dezelfde casus voor een van de parIjen als consulent is opgetreden of indien een van de partijen hem tevoren heeft gevraagd hoe hij in deze casus zou oordelen. (Richtlijn NVMSR art 4.4)",
+                "tekst": "Voorafgaand aan het onderzoek heb ik vastgesteld dat ik betrokkene niet eerder heb behandeld, noch anderszins bij de behandeling betrokken ben geweest. Ook heb ik vastgesteld dat ik geen andere strijdige belangen heb die interfereren met een onafhankelijke beoordeling.",
             },
             "Onderzoeksactiviteiten": {
-                "gemarkeerde_tekst": """Ik heb betrokkene onderzocht op:\a[DATUM] te [PLAATS] gedurende ... minuten. Het onderzoek vond face-to-face / online] plaats\a[DATUM] te [PLAATS] gedurende ... minuten. Het onderzoek vond face-to-face / online] plaats\a[DATUM] te [PLAATS] gedurende ... minuten. Het onderzoek vond face-to-face / online] plaats""",
+                "toelichting": "Op geen enkele wijze neemt de deskundige de rol van hulpverlener aan of suggereert hij die rol in de toekomst te gaan vervullen. Vanzelfsprekend dient de deskundige in een dringende situaIe conform de WGBO, als goed hulpverlener, te handelen en kan acute zorg worden verleend of contact worden opgenomen met de huisarts of behandelend arts. (Richtlijn NVMSR art 4.5)\a Bij de bejegening van de betrokkene worden de gebruikelijke, maatschappelijk aanvaarde omgangsvormen gehanteerd. De bejegening is vriendelijk en beleefd, maar tegelijk ook zakelijk en wordt gekenmerkt door professionele distanIe. Dat het contact vaak zakelijker is dan een contact in een curatief kader wordt bij voorkeur vooraf aan betrokkene kenbaar gemaakt. De deskundige verduidelijkt daarbij aan de betrokkene diens posiIe van ona]ankelijk deskundige. Om onterechte verwachIngen te voorkomen legt de deskundige uit dat er tussen hem en de betrokkene geen therapeuIsche of hulpverleningsrelatie kan bestaan.",
+                "tekst": """Ik heb betrokkene onderzocht op:\a[DATUM] te [PLAATS] gedurende ... minuten. Het onderzoek vond face-to-face / online] plaats\a[DATUM] te [PLAATS] gedurende ... minuten. Het onderzoek vond face-to-face / online] plaats\a[DATUM] te [PLAATS] gedurende ... minuten. Het onderzoek vond face-to-face / online] plaats\aVoorafgaand aan het onderzoek heb ik betrokkene ingelicht over mijn onafhankelijke rol. In het bijzonder heb ik toegelicht dat er geen behandelrelatie tot stand komt. Tevens heb ik betrokkene ingelicht over de gang van zaken rondom het correctierecht, het inzage- en blokkeringsrecht en de commentaarfase. """,
+            },
+            "Identificatie": {
+                "tekst": "De identiteit van betrokkene werd gecontroleerd voorafgaand aan het onderzoek\aDocumenttype: paspoort/identiteitsbewijs/rijbewijs/\aBSN:"
             },
             "Meegezonden informatie": {
-                "toelichting": "Meegezonden informatie kan of hier worden opgesomd of in de bijlage. Bij een beperkt aantal stukken kan de opsomming hier worden weergegeven. Houd daarbij telkens hetzelfde 'format' aan, bijvoorbeeld: 'datum - soort - instantie - afzender' = '19-2-2019 - ontslagbrief - GGZ Rivierduinen - dhr. Z. Ielenknijper, psychiater'.",
-                "checklist_items": [
-                    "Voor een overzicht van de toegezonden stukken en de aanvullend opgevraagde stukken verwijs ik naar de betreffende bijlage.",
-                    "Hierbij volgt een overzicht van de toegezonden stukken:",
-                ],
+                "toelichting": "Meegezonden informatie kan of hier worden opgesomd of in de bijlage. Bij een beperkt aanstal stukken kan de opsomming hier worden weergegeven. Houd daarbij telkens hetzelfde 'format' aan. bijvoorbeeld 'datum - soort - instantie - afzender' = '19-2-2019 - ontslagbrief - GGZ Rivierduinen - dhr. Z. Ielenknijper, psychiater",
+                "tekst": "Voor een overzicht van de toegezonden stukken en de aanvullend opgevraagde stukken verwijs ik naar de betreffende bijlage",
             },
             "Relevante informatie uit de meegezonden stukken": {
-                "toelichting": "Indien geen gebruik wordt gemaakt van de bijlage 'externe stukken', benoem dan hier de relevante informatie uit de meegezonden stukken. Doe dit per stuk en in principe letterlijk of zo letterlijk mogelijk.",
-                "checklist_items": [
-                    "Voor een overzicht van de toegezonden stukken en de aanvullend opgevraagde stukken verwijs ik naar de betreffende bijlage.",
-                    "Hieronder volgt de relevante informatie uit de toegezonden stukken:",
-                ],
+                "toelichting": "Indien geen gebruik wordt gemaakt van de bijlage externe stukken, benoem dan hier de relevante informatie uit de meegezonden stukken. Doe dit per stuk. Doe dit in principe letterlijk of zo letterlijk mogelijk.",
+                "tekst": "Voor een overzicht van de toegezonden stukken en de aanvullend opgevraagde stukken verwijs ik naar de betreffende bijlage",
             },
             "Aanvullend opgevraagde informatie": {
-                "toelichting": "Som hier de aanvullend opgevraagde stukken op, zodat een overzicht ontstaat. Houd daarbij telkens hetzelfde 'format' aan, bijvoorbeeld: 'datum - soort - instantie - afzender' = '19-2-2019 - ontslagbrief - GGZ Rivierduinen - dhr. Z. Ielenknijper, psychiater'.",
-                "checklist_items": [
-                    "Voor een overzicht van de toegezonden stukken en de aanvullend opgevraagde stukken verwijs ik naar de betreffende bijlage.",
-                    "Hierbij volgt een overzicht van de aanvullend opgevraagde stukken:",
-                ],
+                "toelichting": "Som hier de door de aanvullend stukken op zodat een overzicht ontstaat van de stukken. Houd daarbij telkens hetzelfde 'format' aan. bijvoorbeeld 'datum - soort - instantie - afzender' = '19-2-2019 - ontslagbrief - GGZ Rivierduinen - dhr. Z. Ielenknijper, psychiater"
             },
             "Relevante informatie uit de aanvullend opgevraagde stukken": {
-                "toelichting": "Geef hier per stuk aan wat relevant is. Doe dit zoveel mogelijk letterlijk (kopiëren en plakken uit het brondocument). Het is niet de bedoeling om hier al te interpreteren. Een conclusie uit een brief of psychiatrisch onderzoek kan bijvoorbeeld 1-op-1 worden overgenomen.",
-                "checklist_items": [
-                    "Voor een overzicht van de toegezonden stukken en de aanvullend opgevraagde stukken verwijs ik naar de betreffende bijlage.",
-                    "Hieronder volgt de relevante informatie uit de aanvullend opgevraagde stukken:",
-                ],
+                "toelichting": "Geef hier per stuk aan wat relevant is. Doet dit zoveel mogelijk verbatim (kopiëren en plakken uit het brondocument) - het is hier niet de bedoeling dat er al een interpretatie wordt gegeven. Een conclusie uit een brief of een psychiatrisch onderzoek zou bijvoorbeeld 1-op-1 kunnen worden overgenomen."
             },
             "Onderzoeken PrioCura": {
                 "toelichting": "Alleen indien van toepassing kan hier worden opgesomd welk aanvullend onderzoek er binnen PrioCura heeft plaatsgevonden, bijvoorbeeld als er een neuropsychologisch onderzoek of een psychiatrisch/klinisch psychologisch onderzoek (bij een beoordeling van de medische belastbaarheid) heeft plaatsgevonden."
@@ -751,64 +624,65 @@ VGO = {
             },
         },
         "Onderzoek": {
-            "Anamnese": {
-                "Arbeidsongeschiktheid": {},
-                "Aandoeningen": {},
-                "Re-integratie": {},
-            },
-            "Sociale anamnese": {
+            "Anamnese" : {
+                "Arbeidsongeschiktheid":{"toelichting":"Cliënt had het eigen werk ruim XX jaar gedaan voordat deze zich op XX arbeidsongeschikt meldde voor het eigen werk van XX voor XX uur per week. Cliënt meldde zich arbeidsongeschikt vanwege/omdat XX Cliënt vertelt dat hij met deze klachten het eigen werk niet meer kon uitvoeren omdat XX  De reden om zich specifiek op die bewuste dag arbeidsongeschikt te meldden was omdat toen\nAO nu In het hier en nu geeft cliënt aan niet het eigen werk te kunnen uitvoeren omdat XX (klachten x, y, z) Cliënt kan met deze klachten het eigen werk niet uitvoeren omdat XX (belastbaarheid vs belasting in arbeid) "},
+                "Aandoeningen":{"toelichting":"Na zijn arbeidsongeschiktheidsmelding volgde behandeling in de vorm van XX Effect van deze behandeling was dat XX De klachten zijn sinds de oorspronkelijke ziekmelding wel/niet afgenomen Op de vraag waarom de klachten sinds de ziekmelding niet zijn verminderd, antwoord cliënt dat XX Cliënt in inzake deze klachten wel/niet naar haar huisarts/behandelaar gegaan En toen XX etc. "},
+                "Re-integratie": {"toelichting":"Cliënt spreek de bedrijfsarts gemiddeld eens in de XX  weken en de laatste keer was XX . De relatie met de bedrijfsarts is goed. Cliënt startte met re-integreren rond XX middels een aangepast takenpakket XX Inmiddels werkt cliënt in het hier en nu XX  per dag en XX dagen per week in aanpast werk. De taken die cliënt in dat kader sinds XX uitvoert zijn XX. De taken die voor de ziekmelding werden uitgevoerd maar nu nog niet worden uitgevoerd zijn is XX Om het eigen werk weer in volle omgang uit te kunnen voeren zou het voor cliënt nodig zijn dat XX. Op de vraag of er externe zaken spelen die re-integratie niet mogelijk maken, geeft cliënt aan dat XX Op de vraag welke zaken maken dat (verdere) re-integratie niet mogelijk is, geeft cliënt aan dat XX "},},
+           "Sociale anamnese": {
                 "Thuissituatie en eigen gezin": "",
                 "Contacten met familieleden buiten het gezin": "",
                 "Contacten met vrienden en kennissen": "",
                 "Opleiding en werk": "",
                 "Vrije tijd": "",
             },
-            "Tractusanamnese": {
-                "Algemeen": "",
-                "tr. Circulatorius": "",
-                "tr. Respiratorius": "",
-                "tr. Digestivus": "",
-                "tr. Urogenitalis": "",
-                "Zenuwstelsel en sensorium": "",
-                "Endocrien": "",
-                "tr. Locomotorius": "",
-                "Huid": "",
-            },
-            "Persoonlijk functioneren": {},
-            "Dagverhaal": {"Opstaan": "", "Sociaal": "", "Beweging": ""},
-            "Visie betrokkene": {},
-            "Medische voorgeschiedenis": {},
-            "Medicatie": {},
-            "Behandelingen": {},
-            "Psychisch onderzoek": {
-                "Algemene indruk": "",
-                "Bewustzijn": "",
-                "Aandacht": "",
-                "Oriëntatie": "",
-                "Geheugen": "",
-                "Waarneming": "",
-                "Denken": "",
-                "Affect en stemming": "",
-            },
-            "Lichamelijk onderzoek": {},
+            "Tractusanamnese" : {
+                "Algemeen":"",
+                "tr. Circulatorius":"",
+                "tr. Respiratorius":"",
+                "tr. Digestivus":"",
+                "tr. Urogenitalis":"",
+                "Zenuwstelsel en sensorium":"",
+                "Endocrien":"",
+                "tr. Locomotorius":"",
+                "Huid":""},
+            "Persoonlijk functioneren" : {},
+            "Dagverhaal" : {
+                "Opstaan":"",
+                "Sociaal":"",
+                "Beweging":""},
+            "Visie betrokkene" : {},
+            "Medische voorgeschiedenis" : {},
+            "Medicatie" : {},
+            "Behandelingen" : {},
+            "Psychisch onderzoek" : {
+                "Algemene indruk":"",
+                "Bewustzijn":"",
+                "Aandacht":"",
+                "Oriëntatie":"",
+                "Geheugen":"",
+                "Waarneming":"",
+                "Denken":"",
+                "Affect en stemming":""
+                 },
+            "Lichamelijk onderzoek" : {}
         },
-        "Bespreking": {
-            "Diagnose": {},
-            "Beschouwing": {
-                "Claim ziekmelding en re-integratie": "",
-                "Door betrokkene ervaren belemmeringen": "",
-                "Vastgestelde beperkingen en diagnose": "",
-                "Herstel belemmerende factoren": "",
-                "Belastbaarheid in eigen werk": "",
-                "Re-integratie mogelijkheden": "",
-                "Behandeling": "",
-                "Prognose": "",
-                "Weging van de externe stukken": "",
-            },
-            "Conclusie": {},
+        "Bespreking":{
+            "Diagnose" : {},
+            "Beschouwing" : {
+                "Claim ziekmelding en re-integratie":"",
+                "Door betrokkene ervaren belemmeringen":"",
+                "Vastgestelde beperkingen en diagnose":"",
+                "Herstel belemmerende factoren":"",
+                "Belastbaarheid in eigen werk":"",
+                "Re-integratie mogelijkheden":"",
+                "Behandeling":"",
+                "Prognose":"",
+                "Weging van de externe stukken":""},
+            "Conclusie": {}
         },
         "Beantwoording vraagstelling": {
             "Vraagstelling": {
+                "toelichting": "De vragen worden volledig, begrijpelijk en vooral eenduidig beantwoord. Bij de beantwoording van de vragen komen niet/nooit plotseling aspecten naar voren, die niet worden ondersteund/onderbouwd in de voorafgaande beschouwing.",
                 "vragen": vraagstelling_VGO,
             }
         },
@@ -820,6 +694,7 @@ psychiatrie_belastbaarheid = {
     "hoofdstukken": {
         "Onderzoek": {
             "Speciële anamnese": {
+                "toelichting": "Het rapport moet, ongeacht de opbouw, in ieder geval voldoen aan de volgende kwaliteitscriteria:\n1. In het rapport wordt op inzichtelijke en consistente wijze uiteengezet op welke gronden de conclusiesvan het rapport steunen.\n2. Bovenstaande gronden vinden aantoonbaar steun in de feiten, omstandigheden en bevindingen zoals die worden vermeld in het rapport.\n3. Het rapport geeW blijk van een binnen de beroepsgroep algemeen geaccepteerde methode van onderzoek om de voorgelegde vraagstelling te beantwoorden.\n4. Het rapport vermeldt de bronnen waarvan gebruik werd gemaakt, daarbij inbegrepen de gebruikte literatuur en de geconsulteerde personen.\n5. De rapporteur blijW binnen de grenzen van zijn deskundigheid. (Richtlijn NVMSR 2024 art 8.1)\a8.2 De beschrijving van de anamnese is deugdelijk en compleet en beperkt zich tot de relevante gegevens ten behoeve van de beantwoording van de aan de deskundige voorgelegde vragen. De beschrijving van de anamnese bevat uitsluitend het verhaal van de betrokkene, zoveel mogelijk in diens eigen bewoordingen. Er worden daarbij geen termen gebruikt of feiten vermeld die uitsluitend kunnen zijn ontleend aan aangeleverde of verkregen medische gegevens of een interpretaIe daarvan. Termen als “betrokkene zou (...)” worden vermeden. Ook voegt de deskundige bij de beschrijving van de anamnese geen voorlopige conclusies of eigen interpretaIes toe. De auto-anamnese en hetero-anamnese worden gescheiden weergegeven. (Richtlijn NVMSR 2024 art 8.2)",
                 "Houding van betrokkene tegenover het onderzoek": "",
                 "Toedracht van het onderzoek in de woorden van betrokkene": "",
                 "Door betrokkene ervaren klachten": "",
@@ -832,42 +707,42 @@ psychiatrie_belastbaarheid = {
                 "Zindelijkheid": "",
                 "Sociale ontwikkeling": "",
                 "Intellectuele ontwikkeling": "",
+            }},
+            "Bespreking": {
+                "Samenvatting": {
+                    "toelichting": "In de samenvatting worden alle relevante gegevens uit het voorgaande onderzoek kernachtig samengevat. Het betreft dus geen gedeeltelijke of volledige heraling van deze gegevens. Van belang is dat alleen de feiten uit het voorgaande worden weergegeven. De samenvatting bevat dus geen interpretaties, gevolgtrekkingen of hypotheses (uitgezonderd zijn de bevindingen uit het psychiatrisch onderzoek waarbij per definitie sprake is van interpretatie)."
+                },
+                "Beschouwing": {
+                    "toelichting": "De beschouwing is de kern van het rapport. In de beschouwing komen alle overwegingen aan de rode die tot de beantwoording van de vraagstelling leiden.\aEen eventuele causaliteitsvraag wordt uitsluitend beantwoord vanuit de medische causaliteitsgedachte, dat wil zeggen op grond van datgene wat bekend en herkenbaar is met betrekking tot het ontstaan en het beloop van de onderhavige klachten en verschijnselen. Deze vaststelling gebeurt in overeenstemming met de gangbare wetenschappelijk inzichten dan wel richtlijnen binnen het desbetreffende vakgebied. De deskundige zal nooit anamnestische klachten en/of anamnestische beperkingen aan een gebeurtenis (bijvoorbeeld een ongeval of incident) toeschrijven of de causaliteit ervan louter baseren op grond van het feit dat deze na de gebeurtenis voor het eerst worden vermeld. De beoordeling van een eventueel juridisch causaal verband is voorbehouden aan parIjen en uiteindelijk de rechter. (Richtlijn NVMSR 2024 art 8.6)\aDe eventuele beperkingen van de betrokkene worden zo nauwkeurig mogelijk beschreven en slechts in semi-kwanItaIeve vorm weergegeven. De hierbij geadviseerde termen zijn ‘geen, licht, matig, ernstig, volledig’. De deskundige zal zelf geen kwantificerende belastbaarheidsprofielen opstellen. Alleen een bedrijfsarts of een verzekeringsarts is bekwaam om een FuncIonele Mogelijkhedenlijst (FML) op te stellen. De deskundige kan wel de vaststellingen in een FML becommentariëren vanuit het eigen vakgebied en op grond van de eigen waarnemingen.) (Richtlijn NVMSR 2024 art 8.7)\a De deskundige is eraan gehouden zich te beperken tot de beantwoording van de vraagstelling. Let dus goed op waar naar gevraagd wordt en beschouw en beantwoord alleen die zaken. Als er bijvoorbeeld niet naar een prognose en niet naar behandelmogelijkheden wordt gevraagd, dient dit ook niet beschouwd te worden. ",
+                    "Consistentie en validiteit": "",
+                    "Beschrijvende diagnose - context": "",
+                    "Beschrijvende diagnose - door betrokkene ervaren en gerapporteerde klachten en beperkingen": "",
+                    "Beschrijvende diagnose - door onderzoeker geobserveerde symptomen": "",
+                    "Beschrijvende diagnose - hypothese over het persoonlijkheidsfunctioneren": "",
+                    "Beschrijvende diagnose - hypothese over het toestandsbeeld": "",
+                    "Beschrijvende diagnose - hypothese over beïnvloedende factoren": "",
+                    "Classificerende diagnose": "",
+                    "Differentiaal diagnose": "",
+                    "Beperkingen in het functioneren": {
+                        "toelichting": "Beschrijf hier op een feitelijke en objectiveerbare manier beperkingen in het psychisch functioneren als gevolg van de vastgestelde psychopathologie. Blijf hierbij binnen het eigen expertisegebied. Suggestie:\aCognitieve beperkingen\nIk heb tijdens mij onderzoek waargenomen dat ...\nBetrokkene heeft anamnestisch aangegeven beperkingen te ervaren op het gebied van ... \nUit het dagverhaal en [OVERIGE INFORMATIE] blijkt wel/niet dat betrokkene beperkt is op het gebied van ...\nIk vind het daarom geobjectiveerd dat betrokkene beperkt is op het gebied van [EIGEN WAARNEMINGEN] en ik vind het aannemelijk dat betrokkene beperkt is op het gebied van [HETGEEN BETROKKENE ZELF VERMELDT EN BLIJKT UIT DE COLLATERALE INFORMATIE]\aAffectieve beperkingen\aetc, etc..."
+                    },
+                    "Adviezen voor behandeling": {
+                        "toelichting": "Wees hier voorzichtig. Een expertiseonderzoek is een hele andere context dan een intakegesprek binnen een indicatiestelling. Dat kun je ook gerust vermelden als de opdrachtgever een hele expliciete vraag over behandeling stelt. Beperk je in principe tot het wijzen op de betreffende richtlijn, tenzij er duidelijke argumenten zijn om dat niet te doen. Indien er een lopende behandeling is mogen we waar wel kritisch over zijn maar tegelijkertijd moeten we de huidige behandelaar (mits BIG registreerd) in het zadel laten zitten."
+                    },
+                    "Prognostische overwegingen": {
+                        "toelichting": "Bespreek dit altijd systematisch. Begin met de meeste objectieve constateringen. Bespreek in ieder geval: \aDe aard van de aandoening, is deze chronisch/episodisch/progressief of van voorbijgaande aard? (Indien een DSM-classificatie goed past bij de beschrijvende diagnostiek kan ook het betreffende hoofdstuk omtrent prognose uit de DSM-5-TR geraadpleegd worden) \aOf er sprake is van gebleken therapieresistentie, daar is sprake van als er meerdere adequate behandelingen zijn uitgevoerd zonder resultaat. Adequaat betekend de juiste behandeling én de juiste uitvoering van de behandeling. Dat is in principe de behandeling volgens de richtlijn maar beargumenteerd kan daar natuurlijk van worden afgeweken. \aBespreek vervolgens andere bekende prognostische factoren: comorbiditeit, sociaal-maatschappelijke problematiek, middelenmisbruik etc. \aHet is voor de conclusie op dit punt het belangrijkst om aan te geven óf er nog significant herstel te verwachten is binnen welke termijn dit redelijkerwijs te verwachten is (denk in termijnen van halve jaren, niet maanden of weken) en of er terugval te verwachten is (zoals bij bipolariteit, verslaving)"
+                    },
+                    "Weging van de externe stukken": {
+                        "toelichting": "Vat hier niet opnieuw de stukken samen en beschouw deze ook niet maar bespreek of de eigen bevindingen in lijn zijn met de bevindingen van eerdere GGZ-professionals. Maak het in ieder geval kenbaar als er grote afwijkingen zijn en probeer een verklaring te bieden. Als een verklaring niet geboden kan worden, bijvoorbeeld om dat de eigen behandelaar alleen een DSM-classificatie heeft gegeven en geen onderbouwing, zeg dat dan - het belangrijkste van deze paragraaf is het kenbaar maken van het gezien hebben van verschillen en het expliciet tonen van de bereidheid om daarover na te denken."
+                    },
+                },
+                "DSM-5-TR": {},
+                "Conclusie": {
+                    "toelichting": "De beantwoording van de vraagstelling volgt op logische wijze uit de conclusie. De gevolgtrekkingen uit de beschouwing zijn de bron van de conclusie. De conclusie vermeldt dus de gevolgtrekkingen die relevant zijn voor de beantwoording van de vraagstelling. De conclusie bevat geen (herhaling van de) samenvatting of uitgebreide voorbeelden en nuanceringen tenzij dit echt strikt noodzakelijk is voor een juist interpretatie van de gevolgtrekking. Evenmin bevat de conclusie gevolgtrekkingen die niet terug te vinden en onderbouwd zijn in de beschouwing."
+                },
             },
         },
-        "Bespreking": {
-            "Samenvatting": {
-                "toelichting": "In de samenvatting worden alle relevante gegevens uit het voorgaande onderzoek kernachtig samengevat. Van belang is dat alleen de feiten uit het voorgaande worden weergegeven. De samenvatting bevat dus geen interpretaties, gevolgtrekkingen of hypotheses (uitgezonderd zijn de bevindingen uit het psychiatrisch onderzoek waarbij per definitie sprake is van interpretatie)."
-            },
-            "Beschouwing": {
-                "Consistentie en validiteit": "",
-                "Beschrijvende diagnose - context": "",
-                "Beschrijvende diagnose - door betrokkene ervaren en gerapporteerde klachten en beperkingen": "",
-                "Beschrijvende diagnose - door onderzoeker geobserveerde symptomen": "",
-                "Beschrijvende diagnose - hypothese over het persoonlijkheidsfunctioneren": "",
-                "Beschrijvende diagnose - hypothese over het toestandsbeeld": "",
-                "Beschrijvende diagnose - hypothese over beïnvloedende factoren": "",
-                "Classificerende diagnose": "",
-                "Differentiaal diagnose": "",
-                "Beperkingen in het functioneren": {
-                    "toelichting": "Beschrijf hier op een feitelijke en objectiveerbare manier beperkingen in het psychisch functioneren als gevolg van de vastgestelde psychopathologie. Blijf hierbij binnen het eigen expertisegebied. Suggestie:\aCognitieve beperkingen\nIk heb tijdens mij onderzoek waargenomen dat ...\nBetrokkene heeft anamnestisch aangegeven beperkingen te ervaren op het gebied van ... \nUit het dagverhaal en [OVERIGE INFORMATIE] blijkt wel/niet dat betrokkene beperkt is op het gebied van ...\nIk vind het daarom geobjectiveerd dat betrokkene beperkt is op het gebied van [EIGEN WAARNEMINGEN] en ik vind het aannemelijk dat betrokkene beperkt is op het gebied van [HETGEEN BETROKKENE ZELF VERMELDT EN BLIJKT UIT DE COLLATERALE INFORMATIE]\aAffectieve beperkingen\aetc, etc..."
-                },
-                "Adviezen voor behandeling": {
-                    "toelichting": "Wees hier voorzichtig. Een expertiseonderzoek is een hele andere context dan een intakegesprek binnen een indicatiestelling. Dat kun je ook gerust vermelden als de opdrachtgever een hele expliciete vraag over behandeling stelt. Beperk je in principe tot het wijzen op de betreffende richtlijn, tenzij er duidelijke argumenten zijn om dat niet te doen. Indien er een lopende behandeling is mogen we waar wel kritisch over zijn maar tegelijkertijd moeten we de huidige behandelaar (mits BIG registreerd) in het zadel laten zitten."
-                },
-                "Prognostische overwegingen": {
-                    "toelichting": "Bespreek dit altijd systematisch. Begin met de meeste objectieve constateringen. Bespreek in ieder geval: \aDe aard van de aandoening, is deze chronisch/episodisch/progressief of van voorbijgaande aard? (Indien een DSM-classificatie goed past bij de beschrijvende diagnostiek kan ook het betreffende hoofdstuk omtrent prognose uit de DSM-5-TR geraadpleegd worden) \aOf er sprake is van gebleken therapieresistentie, daar is sprake van als er meerdere adequate behandelingen zijn uitgevoerd zonder resultaat. Adequaat betekend de juiste behandeling én de juiste uitvoering van de behandeling. Dat is in principe de behandeling volgens de richtlijn maar beargumenteerd kan daar natuurlijk van worden afgeweken. \aBespreek vervolgens andere bekende prognostische factoren: comorbiditeit, sociaal-maatschappelijke problematiek, middelenmisbruik etc. \aHet is voor de conclusie op dit punt het belangrijkst om aan te geven óf er nog significant herstel te verwachten is binnen welke termijn dit redelijkerwijs te verwachten is (denk in termijnen van halve jaren, niet maanden of weken) en of er terugval te verwachten is (zoals bij bipolariteit, verslaving)"
-                },
-                "Weging van de externe stukken": {
-                    "toelichting": "Vat hier niet opnieuw de stukken samen en beschouw deze ook niet maar bespreek of de eigen bevindingen in lijn zijn met de bevindingen van eerdere GGZ-professionals. Maak het in ieder geval kenbaar als er grote afwijkingen zijn en probeer een verklaring te bieden. Als een verklaring niet geboden kan worden, bijvoorbeeld om dat de eigen behandelaar alleen een DSM-classificatie heeft gegeven en geen onderbouwing, zeg dat dan - het belangrijkste van deze paragraaf is het kenbaar maken van het gezien hebben van verschillen en het expliciet tonen van de bereidheid om daarover na te denken."
-                },
-            },
-            "DSM-5-TR": {},
-            "Conclusie": {
-                "toelichting": "De beantwoording van de vraagstelling volgt op logische wijze uit de conclusie. De gevolgtrekkingen uit de beschouwing zijn de bron van de conclusie. De conclusie vermeldt dus de gevolgtrekkingen die relevant zijn voor de beantwoording van de vraagstelling. De conclusie bevat geen (herhaling van de) samenvatting of uitgebreide voorbeelden en nuanceringen tenzij dit echt strikt noodzakelijk is voor een juist interpretatie van de gevolgtrekking. Evenmin bevat de conclusie gevolgtrekkingen die niet terug te vinden en onderbouwd zijn in de beschouwing."
-            },
-        },
-    },
-}
+    }
 
 
 arbeidsrecht_belastbaarheid = {
@@ -877,15 +752,11 @@ arbeidsrecht_belastbaarheid = {
     "hoofdstukken": {
         "Algemeen": {
             "Context": contexten["Arbeidsrecht"]["Context"],
-            "Correcties": {
-                "gemarkeerde_tekst": contexten["Arbeidsrecht"]["Correcties"]
-            },
+            "Correcties": {"gemarkeerde_tekst": contexten["Arbeidsrecht"]["Correcties"]},
             "Inzage- en blokkering": {
                 "gemarkeerde_tekst": contexten["Arbeidsrecht"]["Inzage- en blokkering"]
             },
-            "Commentaar": {
-                "gemarkeerde_tekst": contexten["Arbeidsrecht"]["Commentaar"]
-            },
+            "Commentaar": {"gemarkeerde_tekst": contexten["Arbeidsrecht"]["Commentaar"]},
             "Vraagstelling": {
                 "toelichting": "Controleer altijd of de vraagstelling juist is en of er nog aanvullende of afwijkende vragen zijn, vul aan/pas aan/verwijder waar nodig",
                 "vragen": vraagstelling_standaard,
@@ -903,32 +774,29 @@ arbeidsrecht_belastbaarheid = {
 bestuurssrecht_belastbaarheid = {
     "bestandsnaam": "BP_bestuursrecht.docx",
     "titel": "Bestuursrechtelijke rapportage",
-    "subtitel": "Onafhankelijke expertise",
+    "subtitel": "Onafhankelijke psychiatrische expertise",
     "hoofdstukken": {
         "Algemeen": {
             "Context": contexten["Bestuursrecht"]["Context"],
-            "Correcties": {
-                "gemarkeerde_tekst": contexten["Bestuursrecht"]["Correcties"]
-            },
+            "Correcties": {"gemarkeerde_tekst": contexten["Bestuursrecht"]["Correcties"]},
             "Inzage- en blokkering": {
                 "gemarkeerde_tekst": contexten["Bestuursrecht"]["Inzage- en blokkering"]
             },
-            "Commentaar": {
-                "gemarkeerde_tekst": contexten["Bestuursrecht"]["Commentaar"]
-            },
+            "Commentaar": {"gemarkeerde_tekst": contexten["Bestuursrecht"]["Commentaar"]},
             "Vraagstelling": {
                 "toelichting": "Controleer altijd of de vraagstelling juist is en of er nog aanvullende of afwijkende vragen zijn, vul aan/pas aan/verwijder waar nodig"
             },
         },
         "Bespreking": {
             "Samenvatting": {
-                "toelichting": "In de samenvatting worden alle relevante gegevens uit het voorgaande onderzoek kernachtig samengevat. Van belang is dat alleen de feiten uit het voorgaande worden weergegeven. De samenvatting bevat dus geen interpretaties, gevolgtrekkingen of hypotheses (uitgezonderd zijn de bevindingen uit het psychiatrisch onderzoek waarbij per definitie sprake is van interpretatie).",
+                "toelichting": "In de samenvatting worden alle relevante gegevens uit het voorgaande onderzoek kernachtig samengevat. Het betreft dus geen gedeeltelijke of volledige heraling van deze gegevens. Van belang is dat alleen de feiten uit het voorgaande worden weergegeven. De samenvatting bevat dus geen interpretaties, gevolgtrekkingen of hypotheses (uitgezonderd zijn de bevindingen uit het psychiatrisch onderzoek waarbij per definitie sprake is van interpretatie).",
                 "Anamnese": "",
                 "Psychiatrisch onderzoek": "",
                 "Meetinstrumenten": "",
                 "Externe stukken": "",
             },
             "Beschouwing": {
+                "toelichting": "De beschouwing is de kern van het rapport. In de beschouwing komen alle overwegingen aan de rode die tot de beantwoording van de vraagstelling leiden.\aEen eventuele causaliteitsvraag wordt uitsluitend beantwoord vanuit de medische causaliteitsgedachte, dat wil zeggen op grond van datgene wat bekend en herkenbaar is met betrekking tot het ontstaan en het beloop van de onderhavige klachten en verschijnselen. Deze vaststelling gebeurt in overeenstemming met de gangbare wetenschappelijk inzichten dan wel richtlijnen binnen het desbetreffende vakgebied. De deskundige zal nooit anamnestische klachten en/of anamnesIsche beperkingen aan een gebeurtenis (bijvoorbeeld een ongeval of incident) toeschrijven of de causaliteit ervan louter baseren op grond van het feit dat deze na de gebeurtenis voor het eerst worden vermeld. De beoordeling van een eventueel juridisch causaal verband is voorbehouden aan parIjen en uiteindelijk de rechter. (Richtlijn NVMSR 2024 art 8.6)\aDe eventuele beperkingen van de betrokkene worden zo nauwkeurig mogelijk beschreven en slechts in semi-kwanItaIeve vorm weergegeven. De hierbij geadviseerde termen zijn ‘geen, licht, matig, ernstig, volledig’. De deskundige zal zelf geen kwantificerende belastbaarheidsprofielen opstellen. Alleen een bedrijfsarts of een verzekeringsarts is bekwaam om een FuncIonele Mogelijkhedenlijst (FML) op te stellen. De deskundige kan wel de vaststellingen in een FML becommentariëren vanuit het eigen vakgebied en op grond van de eigen waarnemingen.) (Richtlijn NVMSR 2024 art 8.7)\aVolgens jurisprudentie van de Centrale Raad van Beroep moet de beoordelend arts ervan overtuigd zijn dat er sprake is van ziekte. Het is daarvoor niet altijd noodzakelijk dat ook een eenduidige diagnose kan worden gesteld. Wel moet de deskundige onderbouwen dat hij het klachtverhaal voldoende plausibel en consistent acht. Bij dit onderzoek is in de regel sprake van een datum in geding. Dat betekent dat uit het rapport moet blijken dat de deskundige zijn onderzoek en zijn uitspraken heeW gebaseerd op de situaIe zoals deze was op de betreffende (peil)datum (Richtlijn NVMSR 2024 - specifieke aspecten bij rapportages in het bestuursrecht)\aDe deskundige is eraan gehouden zich te beperken tot de beantwoording van de vraagstelling. Let dus goed op waar naar gevraagd wordt en beschouw en beantwoord alleen die zaken. Als er bijvoorbeeld niet naar een prognose en niet naar behandelmogelijkheden wordt gevraagd, dient dit ook niet beschouwd te worden.",
                 "Validiteit van de anamnese": "",
                 "Beschrijvende diagnose": "",
                 "Classificerende diagnose": "",
@@ -1057,6 +925,7 @@ psychiatrie_interventieadvies = {
         },
         "Onderzoek": {
             "Speciële anamnese": {
+                "toelichting": "We willen zicht krijgen op hoe betrokkene zelf het onderzoek ervaart, wat de hulpvraag van betrokkene zelf is en op welke manier betrokkene zijn/haar klachten, en de gevolgen daarvan ervaart. ",
                 "Houding van betrokkene tegenover het onderzoek": "",
                 "Toedracht van het onderzoek in de woorden van betrokkene": "",
                 "Hulpvraag": {},
@@ -1072,14 +941,24 @@ psychiatrie_interventieadvies = {
                 "Zelfwaarneming": "",
                 "Inhoud van het denken": "",
                 "Stemming": "",
-                "Angsten": {},
-                "Slaap": {},
+                "Angsten": {
+                    "toelichting": "Vraag naar het type angst, lichamelijke sensaties en cognities. Bevraag ook paniek, dwanggedachten en dwanghandelingen"
+                },
+                "Slaap": {
+                    "toelichting": "Bevraag systematisch; hoe laat gaat betrokkene naar bed, hoe lang duurt het voor hij/zij in slaap valt, wordt hij/zij tussentijds wakker, zijn er problemen met te vroeg wakker worden?"
+                },
                 "Voeding en gewicht": "",
-                "Trauma": {},
+                "Trauma": {
+                    "toelichting": "Vraag naar gebeurtenissen die betrokkene als traumatisch heeft ervaren, geef eventueel een omschrijving van traumatische gebeurtenissen"
+                },
                 "Life-events": "",
-                "Suïcidaliteit": {},
+                "Suïcidaliteit": {
+                    "toelichting": "Vraag hier concreet en rechtstreeks naar. Indien er sprake is van suïcidaliteit, hanteer dan de CASE-methodiek:\a1. Vraag naar de ruime voorgeschiedenis van suïcidaliteit - (langdurige kwetsbaarheid)\a2. Vraag naar relevante gebeurtenissen in de recente voorgeschiedenis - (stressor)\a3. Vraag naar actuele suïcidale gedachten, vraag naar de intensiteit, vraag naar plannen/voorbereidingen, vraag naar de bereidheid om die plannen uit te voeren of er juist van af te zien - (entrapment)\a4. Vraag naar de toekomst, zowel op korte als langere termijn; 'wat gaat u straks doen als u thuis bent?', 'hoe ziet u de toekomst op de langere termijn?' "
+                },
                 "Automutilatie": "",
-                "Ander risico-gedrag": {},
+                "Ander risico-gedrag": {
+                    "toelichting": "Dit kan betrekking hebben op andere vormen van gedrag die voor betrokkene of diens omgeving (inclusief degenen die aan zijn/haar zorg zijn toevertrouwd). Probeer te achterhalen of er sprake is of het gedrag doelgericht is en/of er sprake is van frustratie en/of er sprake is van acting-out. Taxeer risico's op dezelfde wijze als suïcidaliteit"
+                },
                 "Impulsbeheersing": "",
             },
         },
@@ -1111,9 +990,15 @@ psychiatrie_interventieadvies_kort = {
         },
         "Bespreking": {
             "Beschrijvende diagnose": {
-                "Door betrokkene ervaren klachten en beperkingen": {},
-                "Geobserveerde symptomen": {},
-                "Hypothese over het persoonlijkheidsfunctioneren": {},
+                "Door betrokkene ervaren klachten en beperkingen": {
+                    "toelichting": "Bespreek hier zowel hetgeen betrokkene anamnestisch heeft vermeld."
+                },
+                "Geobserveerde symptomen": {
+                    "toelichting": "Beschrijf hier de tijdens het onderzoek geobserveerde afwijkingen zoals die bijvoorbeeld blijken bij het psychiatrisch onderzoek. Bespreek hier ook eventueel heteroanamnestische informatie en objectieve informatie uit andere bronnen"
+                },
+                "Hypothese over het persoonlijkheidsfunctioneren": {
+                    "toelichting": "Beschrijf hier kort of er sprake lijkt te zijn van patroonmatige symptomatologie en/of problemen in het persoonlijkheidsfunctioeren"
+                },
                 "Hypothese over beïnvloedende factoren": {},
                 "Hypothese over het toestandsbeeld": {},
             },
@@ -1164,10 +1049,14 @@ psychiatrie_interventieadvies_complex = {
                 "Persoonlijkheidsfunctioneren": {
                     "toelichting": "Bespreek hier in ieder geval kort de wijze waarop betrokkene zichzelf in de paragraaf Persoonlijkheidsfunctioneren beschrijft. Bespreek hier ook hetgeen betrokkene over zichzelf zegt op de NPV-2-R en de NKPV\aBespreek hier ook de eigen bevindingen omtrent het persoonlijkheidsfunctioneren"
                 },
-                "Hypothese over de organisatie van de persoonlijkheid": {},
+                "Hypothese over de organisatie van de persoonlijkheid": {
+                    "toelichting": "Ga hier uit van de DTP interpretatie van de NKPV en benoem die als dusdanig. Vermijd het als dusdanig benoemen van de profielen maar volsta met het benoemen van de verhouding tussen angstgevoeligheid/controle, de invloed van het temperament en de wijze waarop symptomatologie zich al dan niet uit. Ook aanvullende indrukken of hypotheses over de organisatie van de persoonlijkheid kunnen hier genoemd worden. Bespreek hier ook eventuel afwijkingen tussen hetgeen door betrokkene gezegd of anderszins gerapporteerd is enerzijds en hetgeen geobserveerd of objectief blijkt anderszins."
+                },
                 "Hypothese over beïnvloedende factoren in de huidige sociaal-maatschappelijke context": {},
                 "Hypothese over somatische beïnvloedende factoren": {},
-                "Hypothese over overige factoren van invloed": {},
+                "Hypothese over overige factoren van invloed": {
+                    "toelichting": "Denk hier aan traumatisering, negatieve omstandigheden tijdens de opvoeding, hechtingsproblematiek etc."
+                },
                 "Hypothese over het toestandsbeeld": {},
             },
         },
@@ -1179,7 +1068,6 @@ def get_report():
     reports = [
         [FML],
         [checklist],
-        [zelfcheck],
         [leken_rapport],
         [basis_rapport],
         [basis_rapport, basis_rapport_psychiatrie],
@@ -1276,11 +1164,7 @@ if __name__ == "__main__":
     print(f"Current working directory: {os.getcwd()}")
     indent = 4
     sort_keys = False
-    with open("specific_dict.txt", "w") as f:
-        json.dump(
-            merge_reports(reports),
-            f,
-            indent=indent,
-            sort_keys=sort_keys,
-            ensure_ascii=False,
-        )
+    with open('specific_dict.txt', 'w') as f:
+        json.dump(merge_reports(reports), f, indent=indent, sort_keys=sort_keys, ensure_ascii=False)
+        
+        
